@@ -2,19 +2,21 @@
     ViewData["Title"] = "Home Page";
 }
 
-    <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        @{
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @*@{
             var json = ViewData["MyJSON"];
-        }
+    }*@
     <form>
         <input type="text" id="Departure">
         <input type="text" id="Destination">
-        <input id="submitButton" name="submit" type="button">
+        <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
 
 
-    </form>      
-        <h1>JSON: @json</h1>
+    </form>
+    <h1>JSON:</h1>
+    <p id="JSONPLACE"></p>
+    
 
-    </div>
+</div>

@@ -2,40 +2,30 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-
-
-
-
 //get the fields
 var postString;
+var sessionKey;
 
-
+//get your date from the input fields
 function getData() {
     var departure = document.getElementById("Departure").value;
     var destination = document.getElementById("Destination").value;
-       postString = `inboundDate=2019-11-13&cabinClass=business&children=0&infants=0&country=US&currency=USD&locale=en-US&originPlace=${departure}&destinationPlace=${destination}&outboundDate=2019-11-12&adults=1`;
+    postString = `inboundDate=2019-11-13&cabinClass=business&children=0&infants=0&country=US&currency=USD&locale=en-US&originPlace=${departure}&destinationPlace=${destination}&outboundDate=2019-11-12&adults=1`;
 }
 
-var departure = document.getElementById("Departure").value;
-var destination = document.getElementById("Destination").value;
-
-document.getElementById("submitButton").addEventListener("click", function () {
-    getData();
-    makePOST();
-
-});
-
 //DO POST Method
-
-
-function makePOST() {
+function doPOST(callback) {
     var xhr = new XMLHttpRequest();
     var data = postString;
     xhr.withCredentials = true;
 
     xhr.addEventListener("readystatechange", function () {
         if (this.readyState === this.DONE) {
-            console.log(this.responseText);
+            var contentType = this.getResponseHeader("location");
+            // ez a callback felelős azért hogy a get request pontosak akkor fusson le amikor már a post készen van
+            //itt ez a callback a doGET methodot hívja meg
+            sessionKey = contentType.substr(contentType.length - 36);
+            callback();
         }
     });
 
@@ -45,34 +35,35 @@ function makePOST() {
     xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
 
     xhr.send(data);
-
-    xhr.onreadystatechange = function () {
-        if (this.readyState == this.HEADERS_RECEIVED) {
-            var contentType = xhr.getResponseHeader("location");
-            console.log(contentType);
-    ///nincs lekezelve ha valami szar
-        }
-    }
-  
 }
 
-
 // DO GET Method
-//var data = null;
+function doGET() {
 
-//var xhr = new XMLHttpRequest();
-//xhr.withCredentials = true;
+    var data = null;
 
-//xhr.addEventListener("readystatechange", function () {
-//	if (this.readyState === this.DONE) {
-//		console.log(this.responseText);
-//	}
-//});
+    var xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
 
-//xhr.open("GET", "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/05bff005-00de-40fd-bf84-0e004ca227ad?pageIndex=0&pageSize=10");
-//xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
-//xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
+    xhr.addEventListener("readystatechange", function () {
+        if (this.readyState === this.DONE) {
+            //here gives the site your info back(display post and get request result)
+            document.getElementById("JSONPLACE").textContent = this.responseText;
+        }
+    });
 
-//xhr.send(data);
+    var data = "https://" + `skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/${sessionKey}?pageIndex=0&pageSize=10`
 
-//console.log("success")
+    xhr.open("GET", data);
+    xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
+    xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
+
+    xhr.send(data);
+
+}
+
+// After the button pressed get your api response with the chosen criteria
+document.getElementById("submitButton").addEventListener("click", function () {
+    getData();
+    doPOST(doGET);
+});
