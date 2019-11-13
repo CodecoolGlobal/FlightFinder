@@ -1,8 +1,8 @@
 ﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
-
 // Write your JavaScript code.
-//get the fields
+
+//get the fields(the code sets this fields)
 var postString;
 var sessionKey;
 
@@ -10,7 +10,17 @@ var sessionKey;
 function getData() {
     var departure = document.getElementById("Departure").value;
     var destination = document.getElementById("Destination").value;
-    postString = `inboundDate=2019-11-13&cabinClass=business&children=0&infants=0&country=US&currency=USD&locale=en-US&originPlace=${departure}&destinationPlace=${destination}&outboundDate=2019-11-12&adults=1`;
+    postString = "inboundDate=2019-11-14&" +
+        "cabinClass=business&" +
+        "children=0&" +
+        "infants=0&" +
+        "country=HU&" +
+        "currency=HUF&" +
+        "locale=hun-HU&" +
+        `originPlace=${departure}&` +
+        `destinationPlace=${destination}&` +
+        `outboundDate=2019-11-13&` +
+        "adults=1";
 }
 
 //DO POST Method
@@ -41,7 +51,6 @@ function doPOST(callback) {
 function doGET() {
 
     var data = null;
-
     var xhr = new XMLHttpRequest();
     xhr.withCredentials = true;
 
