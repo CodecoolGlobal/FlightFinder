@@ -10,7 +10,11 @@ var sessionKey;
 function getData() {
     var departure = document.getElementById("Departure").value;
     var destination = document.getElementById("Destination").value;
-    postString = "inboundDate=2019-11-14&" +
+    var startDate = document.getElementById("start").value;
+    var endDate = document.getElementById("end").value;
+
+    postString =
+        `inboundDate=${endDate}&` +
         "cabinClass=business&" +
         "children=0&" +
         "infants=0&" +
@@ -19,7 +23,7 @@ function getData() {
         "locale=hun-HU&" +
         `originPlace=${departure}&` +
         `destinationPlace=${destination}&` +
-        `outboundDate=2019-11-13&` +
+        `outboundDate=${startDate}&` +
         "adults=1";
 }
 
