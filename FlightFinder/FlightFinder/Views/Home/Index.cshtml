@@ -9,20 +9,50 @@
             var json = ViewData["MyJSON"];
     }*@
 <form>
-    <input type="text" id="Departure" value="BUD-sky">
-    <input type="text" id="Destination" value="BERL-sky">
+    <table>
+        <tr>
+            <td>
+                <label>from</label>
+            </td>
+            <td>
+                <input id="countries" />
+            </td>
+            <td>
+                <select id="selectpicker">
+                </select>
+            </td>
+            <td>
+                <label for="start">Start date:</label>
 
-    <label for="start">Start date:</label>
+            </td>
+            <td>
+                <input type="date" id="start" name="trip-start"
+                       value="2019-11-14"
+                       min="2019-01-01" max="2019-12-31">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>to</label>
+            </td>
+            <td>
+                <input id="countries2" />
+            </td>
+            <td>
+                <select id="selectpicker2">
+                </select>
+            </td>
+            <td>
 
-    <input type="date" id="start" name="trip-start"
-           value="2019-11-14"
-           min="2019-01-01" max="2019-12-31">
-
-    <label for="end">End date:</label>
-
-    <input type="date" id="end" name="trip-end"
-           value="2019-11-15"
-           min="2019-01-01" max="2019-12-31">
+                <label for="end">End date:</label>
+            </td>
+            <td>
+                <input type="date" id="end" name="trip-end"
+                       value="2019-11-15"
+                       min="2019-01-01" max="2019-12-31">
+            </td>
+        </tr>
+    </table>
     <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
 
 
