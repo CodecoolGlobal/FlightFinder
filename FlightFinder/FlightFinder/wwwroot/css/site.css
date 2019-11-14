@@ -87,3 +87,9 @@ ul {
 li {
     list-style-type: none;
 }
+.criterias {
+    margin-left: 200px;
+}
+#submitButton {
+    margin-top: 20px;
+}
