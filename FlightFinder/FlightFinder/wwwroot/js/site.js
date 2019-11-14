@@ -12,10 +12,11 @@ function getData() {
     var destination = String(document.getElementById("selectpicker2").value);
     var startDate = document.getElementById("start").value;
     var endDate = document.getElementById("end").value;
+    var cabinClass = document.getElementById("cabinClass").value.toLowerCase();
 
     postString =
         `inboundDate=${endDate}&` +
-        "cabinClass=economy&" +
+        `cabinClass=${cabinClass}&` +
         "children=0&" +
         "infants=0&" +
         "country=HU&" +
@@ -47,7 +48,6 @@ function doPOST(callback) {
     xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
     xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
     xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
-
     xhr.send(data);
 }
 
@@ -63,10 +63,7 @@ function doGET() {
             //here gives the site your info back(display post and get request result)
             var respObj = JSON.parse(this.responseText);
             console.log(respObj);
-
-            getCategories(respObj);
-
-
+            iterateThroughItineraries(respObj);
         }
     });
 
@@ -75,70 +72,99 @@ function doGET() {
     xhr.open("GET", data);
     xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
     xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
-
     xhr.send(data);
 
 }
 
-function getCategories(responseObject) {
+function iterateThroughItineraries(responseObject) {
 
     var itineraries = responseObject.Itineraries;
-    var itinerary;
-    for (let i = 0; i < itineraries.length; i++) {
-        itinerary = itineraries[i];
-        iterateThroughLegs(responseObject, itinerary);
+    var listOfItineraries = document.createElement("ul");
+    listOfItineraries.setAttribute("id", "itineraries");
+    document.getElementById("results").appendChild(listOfItineraries);
+
+    for (let itinerary of itineraries) {
+        var itineraryDOM = addItinerary();
+
+        console.log(itineraryDOM);
+        itineraryDOM.querySelector(".price").innerHTML = `${itinerary.PricingOptions[0].Price} Ft`;
+        itineraryDOM.querySelector(".link").innerHTML = `<a href="${itinerary.PricingOptions[0].DeeplinkUrl}"><button>Purchase</button></a>`;
+        iterateThroughLegs(responseObject, itinerary, itineraryDOM);
+        document.getElementById("results").appendChild(itineraryDOM);
 
     }
-
 }
 
-function iterateThroughLegs(responseObject, itinerary) {
-
-    //var itineraries = responseObject.Itineraries;
+function iterateThroughLegs(responseObject, itinerary, itineraryDOM) {
 
     var legs = responseObject.Legs;
 
-    var leg;
-
-    for (let i = 0; i < legs.length; i++) {
-        leg = legs[i]
-        getOutboundFlight(responseObject, leg, itinerary);
-        getInboundFlight(responseObject, leg, itinerary);
+    for (let leg of legs) {
+        getOutboundFlight(responseObject, leg, itinerary, itineraryDOM);
+    }
+    for (let leg of legs) {
+        getInboundFlight(responseObject, leg, itinerary, itineraryDOM);
     }
 }
 
-function getOutboundFlight(responseObject, leg, itinerary) {
+function getOutboundFlight(responseObject, leg, itinerary, itineraryDOM) {
 
     if (leg.Id == itinerary.OutboundLegId) {
-        fillFlightData(responseObject, leg);
+        var flight = itineraryDOM.querySelector(".outboundFlight");
+        fillFlightData(responseObject, leg, flight);
     }
 }
 
-function getInboundFlight(responseObject, leg, itinerary) {
+function getInboundFlight(responseObject, leg, itinerary, itineraryDOM) {
 
     if (leg.Id == itinerary.InboundLegId) {
-        fillFlightData(responseObject, leg);
+        var flight = itineraryDOM.querySelector(".inboundFlight");
+        fillFlightData(responseObject, leg, flight);
     }
 }
 
-function fillFlightData(responseObject, leg) {
+function fillFlightData(responseObject, leg, flight) {
 
     var carriers = responseObject.Carriers;
-    var carrier;
+    var places = responseObject.Places;
+    var originStation;
+    var destinationStation;
     var imgUrl;
+    var departure = leg.Departure.replace("T", " ");
+    var arrival = leg.Arrival.replace("T", " ");
 
-    for (let i = 0; i < carriers.length; i++) {
-        carrier = carriers[i];
+    for (let place of places) {
+        if (leg.OriginStation == place.Id) {
+            originStation = place.Name;
+        }
+        if (leg.DestinationStation == place.Id) {
+            destinationStation = place.Name;
+        }
+    }
+
+    for (let carrier of carriers) {
         if (leg.Carriers[0] == carrier.Id) {
             imgUrl = carrier.ImageUrl;
         }
     }
-    document.getElementById("results").innerHTML += `<ul>
-                                                                    <li><img src="${imgUrl}"/></li>
-                                                                    <li>${leg.Departure}</li>
-                                                                    <li>${leg.Duration} min</li>
-                                                                    <li>${leg.Arrival}</li>
-                                                                   </ul>`
+    flight.querySelector(".carrierIMG").innerHTML = `<img src="${imgUrl}" />`;
+    flight.querySelector(".departure").innerHTML = `${originStation}` + " " + `${departure}`;
+    flight.querySelector(".duration").innerHTML = `${leg.Duration} min`;
+    flight.querySelector(".arrival").innerHTML = `${destinationStation}` + " " + `${arrival}`;
+
+
+    //document.getElementById("results").innerHTML += `<ul>
+    //                                                                <li><img src="${imgUrl}"/></li>
+    //                                                                <li>${leg.Departure}</li>
+    //                                                                <li>${leg.Duration} min</li>
+    //                                                                <li>${leg.Arrival}</li>
+    //                                                               </ul>`
+}
+
+function addItinerary() {
+    var temp = document.querySelector(".itineraryTemplate");
+    var clone = document.importNode(temp.content, true);
+    return clone;
 }
 
 // After the button pressed get your api response with the chosen criteria
@@ -147,58 +173,3 @@ document.getElementById("submitButton").addEventListener("click", function () {
     getData();
     doPOST(doGET);
 });
-
-
-
-            //var agents = respObj.Agents;
-
-            //var itineraries = respObj.Itineraries;
-
-            //var segments = respObj.Segments;
-
-            //var carriers = respObj.Carriers;
-
-            //var legs = respObj.Legs;
-
-            //for (let i = 0; i <= itineraries.length; i++) {
-            //    for (let j = 0; j < legs.length; j++) {
-            //        if (legs[j].Id == itineraries[i].OutboundLegId) {
-            //            for (let k = 0; k < carriers.length; k++) {
-            //                if (legs[j].Carriers[0] == carriers[k].Id) {
-            //                    var imgUrl = carriers[k].imageUrl;
-            //                }
-            //            }
-            //            document.getElementById("results").innerHTML += `<ul>
-            //                                                        <li>${legs[j].Departure}</li>
-            //                                                        <li>${legs[j].Duration} min</li>
-            //                                                        <li>${legs[j].Arrival}</li>
-            //                                                       </ul>`
-            //        }
-            //        if (legs[j].Id == itineraries[i].InboundLegId) {
-            //            for (let k = 0; k < carriers.length; k++) {
-            //                if (legs[j].Carriers[0] == carriers[k].Id) {
-            //                    imgUrl = carriers[k].imageUrl;
-            //                }
-            //                document.getElementById("results").innerHTML += `<ul>
-            //                                                        <li>${legs[j].Departure}</li>
-            //                                                        <li>${legs[j].Duration} min</li>
-            //                                                        <li>${legs[j].Arrival}</li>
-            //                                                       </ul>`
-            //            }
-            //        }
-            //    }
-            //}
-            //for (let i = 0; i < carriers.length; i++) {
-            //    for (let j = 0; j < segments.length; j++) {
-            //        if (carriers[i].Id == segments[j].Carrier) {
-            //            document.getElementById("results").innerHTML += `<ul>
-            //                                                        <li>${carriers[i].Name}<img src="${carriers[i].ImageUrl}"/></li>
-            //                                                        <li>${segments[j].DepartureDateTime}</li>
-            //                                                        <li>${segments[j].ArrivalDateTime}</li>
-            //                                                        <li>${segments[j].Duration} min</li>
-            //                                                       </ul>`
-            //        }
-            //    }
-            //}
-
-

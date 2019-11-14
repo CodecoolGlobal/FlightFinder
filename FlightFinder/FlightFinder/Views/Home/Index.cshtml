@@ -51,16 +51,58 @@
                        value="2019-11-15"
                        min="2019-01-01" max="2019-12-31">
             </td>
+            <td>
+            <select id="cabinClass">
+                <option>Economy</option>
+                <option>Business</option>
+        </select>
+                </td>
         </tr>
     </table>
     <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
 
 
-</form>
-    <h1>JSON:</h1>
-    <p id="JSONPLACE"></p>
+    </form>
     <div id="results">
+        <ul id="itineraries">
+
+        </ul>
     </div>
-    
+
 
 </div>
+
+<template class="itineraryTemplate">
+    <li class="listitem">
+        <table class="table">
+            <tr class="tablerow">
+                <td class="flightInfos">
+                    <ul class="outAndInboundFlights">
+                        <li class="outboundFlight">
+                            <ul>
+                                <li class="carrierIMG"></li>
+                                <li class="departure"></li>
+                                <li class="duration"></li>
+                                <li class="arrival"></li>
+                            </ul>
+                        </li>
+                        <li class="inboundFlight">
+                            <ul>
+                                <li class="carrierIMG"></li>
+                                <li class="departure"></li>
+                                <li class="duration"></li>
+                                <li class="arrival"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td class="priceAndLink">
+                    <ul>
+                        <li class="price"></li>
+                        <li class="link"></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </li>
+</template>
