@@ -9,19 +9,19 @@
             var json = ViewData["MyJSON"];
     }*@
 <form>
-    <input type="text" id="Departure">
-    <input type="text" id="Destination">
-    
+    <input type="text" id="Departure" value="BUD-sky">
+    <input type="text" id="Destination" value="BERL-sky">
+
     <label for="start">Start date:</label>
 
     <input type="date" id="start" name="trip-start"
-           value="2019-11-13"
+           value="2019-11-14"
            min="2019-01-01" max="2019-12-31">
 
     <label for="end">End date:</label>
 
     <input type="date" id="end" name="trip-end"
-           value="2019-11-20"
+           value="2019-11-15"
            min="2019-01-01" max="2019-12-31">
     <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
 
@@ -29,6 +29,8 @@
 </form>
     <h1>JSON:</h1>
     <p id="JSONPLACE"></p>
+    <div id="results">
+    </div>
     
 
 </div>

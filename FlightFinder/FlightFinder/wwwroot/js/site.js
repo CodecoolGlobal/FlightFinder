@@ -15,7 +15,7 @@ function getData() {
 
     postString =
         `inboundDate=${endDate}&` +
-        "cabinClass=business&" +
+        "cabinClass=economy&" +
         "children=0&" +
         "infants=0&" +
         "country=HU&" +
@@ -61,7 +61,12 @@ function doGET() {
     xhr.addEventListener("readystatechange", function () {
         if (this.readyState === this.DONE) {
             //here gives the site your info back(display post and get request result)
-            document.getElementById("JSONPLACE").textContent = this.responseText;
+            var respObj = JSON.parse(this.responseText);
+            console.log(respObj);
+
+            getCategories(respObj);
+
+
         }
     });
 
@@ -75,8 +80,125 @@ function doGET() {
 
 }
 
+function getCategories(responseObject) {
+
+    var itineraries = responseObject.Itineraries;
+    var itinerary;
+    for (let i = 0; i < itineraries.length; i++) {
+        itinerary = itineraries[i];
+        iterateThroughLegs(responseObject, itinerary);
+
+    }
+
+}
+
+function iterateThroughLegs(responseObject, itinerary) {
+
+    //var itineraries = responseObject.Itineraries;
+
+    var legs = responseObject.Legs;
+
+    var leg;
+
+    for (let i = 0; i < legs.length; i++) {
+        leg = legs[i]
+        getOutboundFlight(responseObject, leg, itinerary);
+        getInboundFlight(responseObject, leg, itinerary);
+    }
+}
+
+function getOutboundFlight(responseObject, leg, itinerary) {
+
+    if (leg.Id == itinerary.OutboundLegId) {
+        fillFlightData(responseObject, leg);
+    }
+}
+
+function getInboundFlight(responseObject, leg, itinerary) {
+
+    if (leg.Id == itinerary.InboundLegId) {
+        fillFlightData(responseObject, leg);
+    }
+}
+
+function fillFlightData(responseObject, leg) {
+
+    var carriers = responseObject.Carriers;
+    var carrier;
+    var imgUrl;
+
+    for (let i = 0; i < carriers.length; i++) {
+        carrier = carriers[i];
+        if (leg.Carriers[0] == carrier.Id) {
+            imgUrl = carrier.ImageUrl;
+        }
+    }
+    document.getElementById("results").innerHTML += `<ul>
+                                                                    <li><img src="${imgUrl}"/></li>
+                                                                    <li>${leg.Departure}</li>
+                                                                    <li>${leg.Duration} min</li>
+                                                                    <li>${leg.Arrival}</li>
+                                                                   </ul>`
+}
+
 // After the button pressed get your api response with the chosen criteria
 document.getElementById("submitButton").addEventListener("click", function () {
+    document.getElementById("results").innerHTML = "";
     getData();
     doPOST(doGET);
 });
+
+
+
+            //var agents = respObj.Agents;
+
+            //var itineraries = respObj.Itineraries;
+
+            //var segments = respObj.Segments;
+
+            //var carriers = respObj.Carriers;
+
+            //var legs = respObj.Legs;
+
+            //for (let i = 0; i <= itineraries.length; i++) {
+            //    for (let j = 0; j < legs.length; j++) {
+            //        if (legs[j].Id == itineraries[i].OutboundLegId) {
+            //            for (let k = 0; k < carriers.length; k++) {
+            //                if (legs[j].Carriers[0] == carriers[k].Id) {
+            //                    var imgUrl = carriers[k].imageUrl;
+            //                }
+            //            }
+            //            document.getElementById("results").innerHTML += `<ul>
+            //                                                        <li>${legs[j].Departure}</li>
+            //                                                        <li>${legs[j].Duration} min</li>
+            //                                                        <li>${legs[j].Arrival}</li>
+            //                                                       </ul>`
+            //        }
+            //        if (legs[j].Id == itineraries[i].InboundLegId) {
+            //            for (let k = 0; k < carriers.length; k++) {
+            //                if (legs[j].Carriers[0] == carriers[k].Id) {
+            //                    imgUrl = carriers[k].imageUrl;
+            //                }
+            //                document.getElementById("results").innerHTML += `<ul>
+            //                                                        <li>${legs[j].Departure}</li>
+            //                                                        <li>${legs[j].Duration} min</li>
+            //                                                        <li>${legs[j].Arrival}</li>
+            //                                                       </ul>`
+            //            }
+            //        }
+            //    }
+            //}
+            //for (let i = 0; i < carriers.length; i++) {
+            //    for (let j = 0; j < segments.length; j++) {
+            //        if (carriers[i].Id == segments[j].Carrier) {
+            //            document.getElementById("results").innerHTML += `<ul>
+            //                                                        <li>${carriers[i].Name}<img src="${carriers[i].ImageUrl}"/></li>
+            //                                                        <li>${segments[j].DepartureDateTime}</li>
+            //                                                        <li>${segments[j].ArrivalDateTime}</li>
+            //                                                        <li>${segments[j].Duration} min</li>
+            //                                                       </ul>`
+            //        }
+            //    }
+            //}
+
+
