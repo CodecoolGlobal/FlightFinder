@@ -6,31 +6,71 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     @*@{
-            var json = ViewData["MyJSON"];
-    }*@
-<form>
-    <input type="text" id="Departure" value="BUD-sky">
-    <input type="text" id="Destination" value="BERL-sky">
+                var json = ViewData["MyJSON"];
+        }*@
+    <form>
+        <input type="text" id="Departure" value="BUD-sky">
+        <input type="text" id="Destination" value="BERL-sky">
+        <select id="cabinClass">
+            <option>Economy</option>
+            <option>Business</option>
+        </select>
 
-    <label for="start">Start date:</label>
+        <label for="start">Start date:</label>
 
-    <input type="date" id="start" name="trip-start"
-           value="2019-11-14"
-           min="2019-01-01" max="2019-12-31">
+        <input type="date" id="start" name="trip-start"
+               value="2019-11-14"
+               min="2019-01-01" max="2019-12-31">
 
-    <label for="end">End date:</label>
+        <label for="end">End date:</label>
 
-    <input type="date" id="end" name="trip-end"
-           value="2019-11-15"
-           min="2019-01-01" max="2019-12-31">
-    <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
+        <input type="date" id="end" name="trip-end"
+               value="2019-11-15"
+               min="2019-01-01" max="2019-12-31">
+        <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
 
 
-</form>
-    <h1>JSON:</h1>
-    <p id="JSONPLACE"></p>
+    </form>
     <div id="results">
+        <ul id="itineraries">
+
+        </ul>
     </div>
-    
+
 
 </div>
+
+<template class="itineraryTemplate">
+    <li class="listitem">
+        <table class="table">
+            <tr class="tablerow">
+                <td class="flightInfos">
+                    <ul class="outAndInboundFlights">
+                        <li class="outboundFlight">
+                            <ul>
+                                <li class="carrierIMG"></li>
+                                <li class="departure"></li>
+                                <li class="duration"></li>
+                                <li class="arrival"></li>
+                            </ul>
+                        </li>
+                        <li class="inboundFlight">
+                            <ul>
+                                <li class="carrierIMG"></li>
+                                <li class="departure"></li>
+                                <li class="duration"></li>
+                                <li class="arrival"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td class="priceAndLink">
+                    <ul>
+                        <li class="price"></li>
+                        <li class="link"></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </li>
+</template>
