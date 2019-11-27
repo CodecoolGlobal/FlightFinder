@@ -17,12 +17,14 @@ namespace FlightFinder.Controllers
 {
     public class HomeController : Controller
     {
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
+
 
         public async Task<IActionResult> IndexAsync()
         {
@@ -32,7 +34,7 @@ namespace FlightFinder.Controllers
             postRequest.AddHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
             postRequest.AddHeader("Content-Type", "application/x-www-form-urlencoded");
             postRequest.AddParameter("application/x-www-form-urlencoded",
-                                     "inboundDate=2019-11-28&cabinClass=business&children=0&infants=0&country=US&currency=USD&locale=en-US&originPlace=SFO-sky&destinationPlace=LHR-sky&outboundDate=2019-11-26&adults=1",
+                                     "inboundDate=2019-12-28&cabinClass=business&children=0&infants=0&country=US&currency=USD&locale=en-US&originPlace=SFO-sky&destinationPlace=LHR-sky&outboundDate=2019-12-04&adults=1",
                                      ParameterType.RequestBody);
             //postRequest.AddParameter("inboundDate", "2019-11-24", ParameterType.RequestBody);
             //postRequest.AddParameter("cabinClass", "business", ParameterType.RequestBody);
@@ -52,7 +54,7 @@ namespace FlightFinder.Controllers
             //t.Wait();
             //var Response = await t;
 
-            var location =  response.Headers.ToList()
+            var location = response.Headers.ToList()
                 .Where(x => x.Name == "Location")
                 .Select(x => x.Value)
                 .FirstOrDefault()
@@ -68,18 +70,109 @@ namespace FlightFinder.Controllers
             getRequest.AddHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
             var restResponse = getClient.Execute(getRequest);
             var jsonResponse = JsonConvert.DeserializeObject(restResponse.Content);
-            Flight flight = new Flight(jsonResponse);
+            JsonResponseData jResponseObj = new JsonResponseData(jsonResponse);
 
 
-            ViewData["SessionKey"] = flight.SessionKey;
-            ViewData["Agents"] = flight.Agents;
-            ViewData["Itineraries"] = flight.Itineraries;
-            ViewData["Legs"] = flight.Legs;
-            ViewData["Places"] = flight.Places;
-            ViewData["Segments"] = flight.Segments;
+
+
+            //foreach (var leg in jResponseObj.Legs)
+            //{
+            //    Flight flight = new Flight();
+            //    flight.destinationStation = leg.DestinationStation; 
+            //    flight.destinationTime = leg.Arrival; 
+            //    flight.Id = leg.Id; 
+            //    flight.departureTime = leg.Departure;
+            //    flight.departureStation = leg.OriginStation;
+            //}
+            //foreach (var itinerary in jResponseObj.Itineraries)
+            //{
+            //    Journey journey = new Journey();
+            //    //journey.inboundFlight = itinerary.InboundLegId;
+            //}
+
+
+            ViewData["Agents"] = jResponseObj.Agents;
+            ViewData["Itineraries"] = jResponseObj.Itineraries;
+            ViewData["Legs"] = jResponseObj.Legs;
+            ViewData["Places"] = jResponseObj.Places;
+            ViewData["Segments"] = jResponseObj.Segments;
+            ViewData["Flight"] = jResponseObj;
+
+            List<Journey> journeys = new List<Journey>();
+            iterateThroughItineraries(jResponseObj, journeys);
+            ViewData["Journeys"] = journeys;
+
 
             return View();
         }
+
+        private void iterateThroughItineraries(JsonResponseData jsonResponseObj, List<Journey> journeys)
+        {
+            foreach (Itinerary itinerary in jsonResponseObj.Itineraries)
+            {
+                Journey journey = new Journey();
+                journey.price = itinerary.Price;
+                journey.link = itinerary.Link;
+                iterateTroughLegs(jsonResponseObj, itinerary, journey);
+                journeys.Add(journey);
+            }
+        }
+        private void iterateTroughLegs(JsonResponseData jsonResponseObj, Itinerary itinerary, Journey journey)
+        {
+            foreach (var leg in jsonResponseObj.Legs)
+            {
+                getOutboundFlight(jsonResponseObj, leg, itinerary, journey);
+            }
+            
+            foreach (var leg in jsonResponseObj.Legs)
+            {
+                getInboundFlight(jsonResponseObj, leg, itinerary, journey);
+            }
+        }
+
+        private void getOutboundFlight(JsonResponseData jsonResponseObj, Leg leg, Itinerary itinerary, Journey journey)
+        {
+            if (leg.Id == itinerary.OutboundLegId)
+            {
+               journey.outboundFlight = fillFlightData(jsonResponseObj, leg);
+            }
+        }
+
+        private void getInboundFlight(JsonResponseData jsonResponseObj, Leg leg, Itinerary itinerary, Journey journey)
+        {
+            if (leg.Id == itinerary.InboundLegId)
+            {
+               journey.inboundFlight = fillFlightData(jsonResponseObj, leg);
+            }
+        }
+
+        private Flight fillFlightData(JsonResponseData jsonResponseObj, Leg leg)
+        {
+            Flight flight = new Flight();
+
+            foreach (Place place in jsonResponseObj.Places)
+            {
+                if (leg.OriginStation == place.Id)
+                {
+                    flight.originStation = place.Name;
+                }
+                if (leg.DestinationStation == place.Id)
+                {
+                    flight.destinationStation = place.Name;
+                }
+            }
+
+            foreach (Carrier carrier in jsonResponseObj.Carriers)
+            {
+                if (leg.Carriers == carrier.Id)
+                {
+                   flight.imgUrl = carrier.ImageUrl;
+                }
+            }
+
+            return flight;
+        }
+
 
         public IActionResult Privacy()
         {

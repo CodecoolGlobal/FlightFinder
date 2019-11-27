@@ -80,3 +80,10 @@ label {
     margin: .4rem 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}

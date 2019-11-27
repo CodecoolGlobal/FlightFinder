@@ -8,8 +8,9 @@ namespace FlightFinder.Models
     public class Leg
     {
         public string Arrival { get; set; }
-        public string Carriers { get; set; }
+        public long Carriers { get; set; }
         public string Departure { get; set; }
+        public int Duration { get; set; }
         public int DestinationStation { get; set; }
         public string Directionality { get; set; }
         public List<Flightnumber> FlighNumbers { get; set; }
@@ -20,7 +21,7 @@ namespace FlightFinder.Models
         public List<int> SegmentIds { get; set; }
         public List<int> Stops { get; set; }
 
-        public Leg(string arrival, string carriers, string departure, int destinationStation, string id, int originStation)
+        public Leg(string arrival, long carriers, string departure, int destinationStation, string id, int originStation, int duration)
         {
             Arrival = arrival;
             Carriers = carriers;
@@ -28,6 +29,7 @@ namespace FlightFinder.Models
             DestinationStation = destinationStation;
             Id = id;
             OriginStation = originStation;
+            Duration = duration;
         }
     }
 

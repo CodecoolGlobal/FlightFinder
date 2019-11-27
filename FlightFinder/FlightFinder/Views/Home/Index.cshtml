@@ -1,46 +1,89 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    var sessionkey = ViewData["SessionKey"];
+    var flights = ViewData["Flight"];
     var agents = ViewData["Agents"];
+    var places = ViewData["Places"];
+    var journeys = ViewData["Journeys"];
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     @*@{
-            var json = ViewData["MyJSON"];
-    }*@
-<form>
-    <input type="text" id="Departure" value="BUD-sky">
-    <input type="text" id="Destination" value="BERL-sky">
+                var json = ViewData["MyJSON"];
+        }*@
+    <form>
+        <input type="text" id="Departure" value="BUD-sky">
+        <input type="text" id="Destination" value="BERL-sky">
 
-    <label for="start">Start date:</label>
+        <label for="start">Start date:</label>
 
-    <input type="date" id="start" name="trip-start"
-           value="2019-11-14"
-           min="2019-01-01" max="2019-12-31">
+        <input type="date" id="start" name="trip-start"
+               value="2019-11-14"
+               min="2019-01-01" max="2019-12-31">
 
-    <label for="end">End date:</label>
+        <label for="end">End date:</label>
 
-    <input type="date" id="end" name="trip-end"
-           value="2019-11-15"
-           min="2019-01-01" max="2019-12-31">
-    <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
+        <input type="date" id="end" name="trip-end"
+               value="2019-11-15"
+               min="2019-01-01" max="2019-12-31">
+        <button id="submitButton" name="submit" type="button">GIVE ME MY SEARCH RESULT!PLS</button>
 
 
-</form>
+    </form>
     <h1>JSON:</h1>
     <p id="JSONPLACE"></p>
     <div id="results">
     </div>
-    
+
 
 </div>
 <div>
-
-    <p>@sessionkey</p>
-    @foreach (var agent in (IEnumerable<Agent>)agents)
-    {
-        <img src="@agent.ImageUrl" />
-    }
+    <ul>
+        @foreach (var journey in (IEnumerable<Journey>)journeys)
+        {
+            <li class="listitem">
+                <table class="table">
+                    <tr class="tablerow">
+                        <td class="flightInfos">
+                            <ul class="outAndInboundFlights">
+                                <li class="outboundFlight">
+                                    <ul>
+                                        <li class="carrierIMG">
+                                            <img src=" @journey.outboundFlight.imgUrl" />
+                                        </li>
+                                        <li class="departure">@journey.outboundFlight.originStation, @journey.outboundFlight.departure</li>
+                                        <li class="duration">@journey.outboundFlight.duration</li>
+                                        <li class="arrival">@journey.outboundFlight.destinationStation, @journey.outboundFlight.arrival</li>
+                                    </ul>
+                                </li>
+                                <li class="inboundFlight">
+                                    <ul>
+                                        <li class="carrierIMG">
+                                            <img src=" @journey.inboundFlight.imgUrl" />
+                                        </li>
+                                        <li class="departure">@journey.inboundFlight.originStation, @journey.inboundFlight.departure</li>
+                                        <li class="duration">@journey.inboundFlight.duration</li>
+                                        <li class="arrival">@journey.inboundFlight.destinationStation, @journey.inboundFlight.arrival</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="priceAndLink">
+                            <ul>
+                                <li class="price">@journey.price</li>
+                                <li class="link">
+                                    <a href="@journey.link">
+                                        <button>
+                                            Purchase
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        }
+    </ul>
 </div>

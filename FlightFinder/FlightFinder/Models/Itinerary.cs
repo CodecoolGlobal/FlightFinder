@@ -10,10 +10,10 @@ namespace FlightFinder.Models
         public string InboundLegId { get; set; }
         public string OutboundLegId { get; set; }
         public string BookingDetailsLink { get; set; }
-        public string Price { get; set; }
+        public int Price { get; set; }
         public string Link { get; set; }
 
-        public Itinerary(string inboundLegId, string outboundLegId, string bookingDetailsLink, string price, string link)
+        public Itinerary(string inboundLegId, string outboundLegId, string bookingDetailsLink, int price, string link)
         {
             InboundLegId = inboundLegId;
             OutboundLegId = outboundLegId;
