@@ -1,5 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    var sessionkey = ViewData["SessionKey"];
+    var agents = ViewData["Agents"];
 }
 
 <div class="text-center">
@@ -33,4 +35,12 @@
     </div>
     
 
+</div>
+<div>
+
+    <p>@sessionkey</p>
+    @foreach (var agent in (IEnumerable<Agent>)agents)
+    {
+        <img src="@agent.ImageUrl" />
+    }
 </div>
