@@ -24,9 +24,9 @@ body {
 }
 
 .booking-form {
-	background: rgba(0, 0, 0, 0.7);
-	padding: 40px;
-	border-radius: 6px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 6px !important;
 }
 
 .booking-form .form-group {

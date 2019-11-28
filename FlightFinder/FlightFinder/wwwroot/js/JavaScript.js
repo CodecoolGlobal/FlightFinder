@@ -65,7 +65,7 @@ function autocomplite(json, idstring) {
             }
         },
 
-        theme: "square"
+        //theme: "round"
     };
 
     $(idstring).easyAutocomplete(options);
