@@ -28,65 +28,6 @@ namespace FlightFinder.Controllers
 
         public IActionResult Index()
         {
-            //var outboundDate = Request.Form["departing"];
-            //var inboundDate = Request.Form["returning"];
-            //var originPlace = Request.Form["airportFrom"];
-            //var destinationPlace = Request.Form["airportTo"];
-            //var numOfAdults = Request.Form["adults"];
-            //var numOfChildren = Request.Form["children"];
-            //var cabinClass = Request.Form["cabinClass"];
-
-            //var postClient = new RestClient("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/v1.0");
-            //var postRequest = new RestRequest(Method.POST);
-            //postRequest.AddHeader("X-RapidAPI-Host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
-            //postRequest.AddHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
-            //postRequest.AddHeader("Content-Type", "application/x-www-form-urlencoded");
-            //postRequest.AddParameter("application/x-www-form-urlencoded",
-            //                         "inboundDate=" + inboundDate + 
-            //                         "&cabinClass=" + cabinClass +
-            //                         "&children=" + numOfChildren + 
-            //                         "&infants=0" +
-            //                         "&country=US" +
-            //                         "&currency=USD" +
-            //                         "&locale=en-US" +
-            //                         "&originPlace="+ originPlace +
-            //                         "&destinationPlace=" + destinationPlace + 
-            //                         "&outboundDate=" + outboundDate + 
-            //                         "&adults=" + numOfAdults,
-            //                         ParameterType.RequestBody);
-
-            //IRestResponse response = await postClient.ExecuteTaskAsync(postRequest);
-
-            //var location = response.Headers.ToList()
-            //    .Where(x => x.Name == "Location")
-            //    .Select(x => x.Value)
-            //    .FirstOrDefault()
-            //    .ToString();
-
-            //var sessionKey = location.Substring(location.Length - 36);
-
-            //var sessionKey = doPostAsync();
-
-            //var getClient = new RestClient("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/{sessionkey}?pageIndex=0&pageSize=10");
-            //var getRequest = new RestRequest(Method.GET);
-            //getRequest.AddUrlSegment("sessionkey", sessionKey);
-            //getRequest.AddHeader("X-RapidAPI-Host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
-            //getRequest.AddHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
-            //var restResponse = getClient.Execute(getRequest);
-            //var jsonResponse = JsonConvert.DeserializeObject(restResponse.Content);
-            //JsonResponseData jResponseObj = new JsonResponseData(jsonResponse);
-
-
-            //ViewData["Agents"] = jResponseObj.Agents;
-            //ViewData["Itineraries"] = jResponseObj.Itineraries;
-            //ViewData["Legs"] = jResponseObj.Legs;
-            //ViewData["Places"] = jResponseObj.Places;
-            //ViewData["Segments"] = jResponseObj.Segments;
-            //ViewData["Flight"] = jResponseObj;
-
-            //List<Journey> journeys = new List<Journey>();
-            //iterateThroughItineraries(jResponseObj, journeys);
-            //ViewData["Journeys"] = journeys;
 
             return View();
         }
@@ -94,7 +35,6 @@ namespace FlightFinder.Controllers
         public IActionResult Results()
         {
 
-            //var sessionKey = doPostAsync();
             var jResponseObj = doGet();
 
             ViewData["Agents"] = jResponseObj.Agents;
