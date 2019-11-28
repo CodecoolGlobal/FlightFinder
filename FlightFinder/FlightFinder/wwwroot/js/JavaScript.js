@@ -1,27 +1,27 @@
 ﻿function getcountries() {
-var data = null;
+    var data = null;
 
-var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
+    var xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
 
-xhr.addEventListener("readystatechange", function () {
-    if (this.readyState === this.DONE) {
-        
-        var result = JSON.parse(this.responseText.substring(13).slice(0, -1));
-    autocomplite(result, "#countries");
-    autocomplite(result, "#countries2");
+    xhr.addEventListener("readystatechange", function () {
+        if (this.readyState === this.DONE) {
 
-    }
-});
+            var result = JSON.parse(this.responseText.substring(13).slice(0, -1));
+            autocomplite(result, "#countries");
+            autocomplite(result, "#countries2");
 
-xhr.open("GET", "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/reference/v1.0/countries/hu-HU");
-xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
+        }
+    });
 
-xhr.send(data);
+    xhr.open("GET", "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/reference/v1.0/countries/hu-HU");
+    xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
+    xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
+
+    xhr.send(data);
 
 }
-
+    
 function getairports(country, pickerid) {
     var data = null;
 
@@ -32,7 +32,7 @@ function getairports(country, pickerid) {
         if (this.readyState === this.DONE) {
             console.log(this.responseText);
             var result = JSON.parse(this.responseText.substring(10).slice(0, -1));
-                var picker = document.getElementById(pickerid)
+            var picker = document.getElementById(pickerid)
             for (let i in result) {
                 var node = document.createElement("option");
                 node.textContent = result[i]['PlaceId'];
@@ -40,9 +40,9 @@ function getairports(country, pickerid) {
             }
         }
     });
-    
 
-    xhr.open("GET", "https://"+`skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/HU/HUF/hu-HU/?query=${country}`);
+
+    xhr.open("GET", "https://" + `skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/HU/HUF/hu-HU/?query=${country}`);
     xhr.setRequestHeader("x-rapidapi-host", "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com");
     xhr.setRequestHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
 
@@ -65,7 +65,7 @@ function autocomplite(json, idstring) {
             }
         },
 
-        theme: "square"
+        //theme: "round"
     };
 
     $(idstring).easyAutocomplete(options);
@@ -82,14 +82,14 @@ function checkKey(e) {
 
     if (e.keyCode == '13') {
         removeChilds();
-        getairports(encode_utf8(from.value), "selectpicker" );
-        getairports(encode_utf8(to.value), "selectpicker2")
+        getairports(encode_utf8(from.value), "airportFrom");
+        getairports(encode_utf8(to.value), "airportTo")
     }
 
 }
 function removeChilds() {
-    var list = document.getElementById("selectpicker");
-    var list2 = document.getElementById("selectpicker2");
+    var list = document.getElementById("airportFrom");
+    var list2 = document.getElementById("airportTo");
 
     while (list.hasChildNodes() && list2.hasChildNodes()) {
         list.removeChild(list.firstChild);
