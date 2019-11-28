@@ -1,0 +1,60 @@
+﻿
+@{
+    //ViewData["Title"] = "Results";
+    var flights = ViewData["Flight"];
+    var agents = ViewData["Agents"];
+    var places = ViewData["Places"];
+    var journeys = ViewData["Journeys"];
+}
+
+<h1>Results</h1>
+<div>
+    <ul>
+        @foreach (var journey in (IEnumerable<Journey>)journeys)
+        {
+            <li class="listitem">
+                <table class="table">
+                    <tr class="tablerow">
+                        <td class="flightInfos">
+                            <ul class="outAndInboundFlights">
+                                <li class="outboundFlight">
+                                    <ul>
+                                        <li class="carrierIMG">
+                                            <img src=" @journey.outboundFlight.imgUrl" />
+                                        </li>
+                                        <li class="departure">@journey.outboundFlight.originStation, @journey.outboundFlight.departure</li>
+                                        <li class="duration">@journey.outboundFlight.duration min</li>
+                                        <li class="arrival">@journey.outboundFlight.destinationStation, @journey.outboundFlight.arrival</li>
+                                    </ul>
+                                </li>
+                                <li class="inboundFlight">
+                                    <ul>
+                                        <li class="carrierIMG">
+                                            <img src=" @journey.inboundFlight.imgUrl" />
+                                        </li>
+                                        <li class="departure">@journey.inboundFlight.originStation, @journey.inboundFlight.departure</li>
+                                        <li class="duration">@journey.inboundFlight.duration min</li>
+                                        <li class="arrival">@journey.inboundFlight.destinationStation, @journey.inboundFlight.arrival</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                        <td class="priceAndLink">
+                            <ul>
+                                <li class="price">@journey.price Ft</li>
+                                <li class="link">
+                                    <a href="@journey.link">
+                                        <button>
+                                            Purchase
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        }
+    </ul>
+</div>
+

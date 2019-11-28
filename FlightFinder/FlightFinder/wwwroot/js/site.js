@@ -8,8 +8,8 @@ var sessionKey;
 
 //get your date from the input fields
 function getData() {
-    var departure = String(document.getElementById("selectpicker").value);
-    var destination = String(document.getElementById("selectpicker2").value);
+    var departure = String(document.getElementById("airportFrom").value);
+    var destination = String(document.getElementById("airportTo").value);
     var startDate = document.getElementById("start").value;
     var endDate = document.getElementById("end").value;
     var cabinClass = document.getElementById("cabinClass").value.toLowerCase();
