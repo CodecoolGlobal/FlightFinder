@@ -26,16 +26,6 @@
     var places = ViewData["Places"];
     var journeys = ViewData["Journeys"];
 }
-@*<div class="gaadiex-list">
-        <div class="gaadiex-list-item">
-            <img class="gaadiex-list-item-img" src="@journey.outboundFlight.imgUrl" alt="List user">
-            <div class="gaadiex-list-item-text">
-                <h3><a href="#">Eric Graves</a></h3>
-                <h4>Brunch this weekend?</h4>
-                <p> I'll be in your neighborhood doing errands</p>
-            </div>
-        </div>
-    </div>*@
 
 <div>
     @foreach (var journey in (IEnumerable<Journey>)journeys)
