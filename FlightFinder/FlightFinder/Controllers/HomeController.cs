@@ -17,7 +17,7 @@ namespace FlightFinder.Controllers
 {
     public class HomeController : Controller
     {
-
+        DataBase dataBase = new DataBase();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -29,6 +29,20 @@ namespace FlightFinder.Controllers
         public IActionResult Index()
         {
 
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Index([Bind] AdminLogin adminLogin)
+        {
+            int response = dataBase.LoginCheck(adminLogin);
+            if (response == 1)
+            {
+                TempData["message"] = "You Logged in succwesfully"; 
+            }
+            else
+            {
+                TempData["message"] = "Name or password is invalid";
+            }
             return View();
         }
 
@@ -82,6 +96,13 @@ namespace FlightFinder.Controllers
 
             IRestResponse response = postClient.Execute(postRequest);
 
+
+            var status = response.StatusCode;
+            while (status.Equals(HttpStatusCode.TooManyRequests))
+            {
+                response = postClient.Execute(postRequest);
+            }
+
             var location = response.Headers.ToList()
                 .Where(x => x.Name == "Location")
                 .Select(x => x.Value)
@@ -96,9 +117,9 @@ namespace FlightFinder.Controllers
         private JsonResponseData doGet()
         {
             var sessionKey = doPost();
-            while (string.IsNullOrEmpty(sessionKey))
+            if (string.IsNullOrEmpty(sessionKey))
             {
-                sessionKey = doPost();
+                sessionKey = "5350c495-f127-4c22-9f54-e0c38f22bd3b";
             }
             var getClient = new RestClient("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/{sessionkey}?pageIndex=0&pageSize=10");
             var getRequest = new RestRequest(Method.GET);
@@ -107,10 +128,13 @@ namespace FlightFinder.Controllers
             getRequest.AddHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
             var restResponse = getClient.Execute(getRequest);
             var jsonResponse = JsonConvert.DeserializeObject(restResponse.Content);
+
+            
+
             JsonResponseData jResponseObj = new JsonResponseData(jsonResponse);
 
             return jResponseObj;
-            
+
 
         }
 
@@ -131,7 +155,7 @@ namespace FlightFinder.Controllers
             {
                 getOutboundFlight(jsonResponseObj, leg, itinerary, journey);
             }
-            
+
             foreach (var leg in jsonResponseObj.Legs)
             {
                 getInboundFlight(jsonResponseObj, leg, itinerary, journey);
@@ -142,7 +166,7 @@ namespace FlightFinder.Controllers
         {
             if (leg.Id == itinerary.OutboundLegId)
             {
-               journey.outboundFlight = fillFlightData(jsonResponseObj, leg);
+                journey.outboundFlight = fillFlightData(jsonResponseObj, leg);
             }
         }
 
@@ -150,7 +174,7 @@ namespace FlightFinder.Controllers
         {
             if (leg.Id == itinerary.InboundLegId)
             {
-               journey.inboundFlight = fillFlightData(jsonResponseObj, leg);
+                journey.inboundFlight = fillFlightData(jsonResponseObj, leg);
             }
         }
 
@@ -174,7 +198,7 @@ namespace FlightFinder.Controllers
             {
                 if (leg.Carriers == carrier.Id)
                 {
-                   flight.imgUrl = carrier.ImageUrl;
+                    flight.imgUrl = carrier.ImageUrl;
                 }
             }
 

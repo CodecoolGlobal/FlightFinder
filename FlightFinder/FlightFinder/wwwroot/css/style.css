@@ -176,3 +176,13 @@ body {
 .booking-form .submit-btn:focus {
 	opacity: 0.9;
 }
+
+#eac-container-countries2.easy-autocomplete-container ul,
+#eac-container-countries.easy-autocomplete-container ul {
+    background-color: #efefef;
+    margin-left: 17px;
+    margin-right: 17px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 60px;
+}
+

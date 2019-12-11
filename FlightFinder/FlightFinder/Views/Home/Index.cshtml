@@ -1,9 +1,31 @@
-﻿@{
+﻿@model FlightFinder.Models.AdminLogin
+@{
     ViewData["Title"] = "Home Page";
     var flights = ViewData["Flight"];
     var agents = ViewData["Agents"];
     var places = ViewData["Places"];
     var journeys = ViewData["Journeys"];
+}
+
+<form class="form-horizontal" asp-action="Index">
+    <div class="form-group">
+        <label class="control-label">Admin Name:</label>
+        <input asp-for="AdminName" class="form-control" type="text" />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Admin Password:</label>
+        <input asp-for="AdminPassword" class="form-control" type="password" />
+    </div>
+    <div>
+        <input type="submit" value="Login"/>
+    </div>
+</form>
+@{ 
+    if (TempData["message"]!= null) {
+        <script>
+            alert('@TempData["message"]')
+        </script>
+    }
 }
 
 <div class="text-center">

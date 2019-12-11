@@ -1,0 +1,5896 @@
+﻿{
+  "SessionKey": "5350c495-f127-4c22-9f54-e0c38f22bd3b",
+  "Query": {
+    "Country": "HU",
+    "Currency": "HUF",
+    "Locale": "hu-HU",
+    "Adults": 1,
+    "Children": 0,
+    "Infants": 0,
+    "OriginPlace": "10202",
+    "DestinationPlace": "4698",
+    "OutboundDate": "2019-11-29",
+    "InboundDate": "2019-11-30",
+    "LocationSchema": "Default",
+    "CabinClass": "business",
+    "GroupPricing": false
+  },
+  "Status": "UpdatesComplete",
+  "Itineraries": [
+    {
+      "OutboundLegId": "10202-1911291205--32478-1-13554-1911291705",
+      "InboundLegId": "13554-1911301730--32090-1-10202-1911302250",
+      "PricingOptions": [
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 264414.25,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32478%7c2824%7c10202%7c2019-11-29T12%3a05%7c10141%7c2019-11-29T14%3a05%7c120%7c-%7c-%7c-%3bflight%7c-32478%7c2095%7c10141%7c2019-11-29T16%3a55%7c13554%7c2019-11-29T17%3a05%7c70%7c-%7c-%7c-%2cflight%7c-32090%7c915%7c13554%7c2019-11-30T17%3a30%7c11616%7c2019-11-30T20%3a05%7c95%7c-%7c-%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7c-%7c-%7c-%26carriers%3d-32478%2c-32090%26operators%3d-32478%3b-32478%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d264414.25%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c-3325196770923994662%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 267162.90,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32478%7c2824%7c10202%7c2019-11-29T12%3a05%7c10141%7c2019-11-29T14%3a05%7c120%7c-%7c-%7c-%3bflight%7c-32478%7c2095%7c10141%7c2019-11-29T16%3a55%7c13554%7c2019-11-29T17%3a05%7c70%7c-%7c-%7c-%2cflight%7c-32090%7c915%7c13554%7c2019-11-30T17%3a30%7c11616%7c2019-11-30T20%3a05%7c95%7c-%7c-%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7c-%7c-%7c-%26carriers%3d-32478%2c-32090%26operators%3d-32478%3b-32478%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d267162.90%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c-3325196770923994662%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 3934928 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 289233.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fskyp%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32478%7c2824%7c10202%7c2019-11-29T12%3a05%7c10141%7c2019-11-29T14%3a05%7c120%7cPFFBRT55%7cP%7c-%3bflight%7c-32478%7c2095%7c10141%7c2019-11-29T16%3a55%7c13554%7c2019-11-29T17%3a05%7c70%7cPFFBRT55%7cP%7c-%2cflight%7c-32090%7c915%7c13554%7c2019-11-30T17%3a30%7c11616%7c2019-11-30T20%3a05%7c95%7cC10BUZE0%7cC%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7cC10BUZE0%7cC%7c-%26carriers%3d-32478%2c-32090%26operators%3d-32478%3b-32478%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dtrue%26ticket_price%3d289233.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.10202.4698.191129.191130.1..B%7c3968790100474740312%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dtrue"
+        },
+        {
+          "Agents": [ 2044837 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 305231.27,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fbghu%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32478%7c2824%7c10202%7c2019-11-29T12%3a05%7c10141%7c2019-11-29T14%3a05%7c120%7c-%7c-%7c-%3bflight%7c-32478%7c2095%7c10141%7c2019-11-29T16%3a55%7c13554%7c2019-11-29T17%3a05%7c70%7c-%7c-%7c-%2cflight%7c-32090%7c915%7c13554%7c2019-11-30T17%3a30%7c11616%7c2019-11-30T20%3a05%7c95%7c-%7c-%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7c-%7c-%7c-%26carriers%3d-32478%2c-32090%26operators%3d-32478%3b-32478%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d305231.27%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dbghu.10202.4698.191129.191130.1..B%7c-3325196770923994662%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291205--32478-1-13554-1911291705&InboundLegId=13554-1911301730--32090-1-10202-1911302250",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291250--32132-1-13554-1911291605",
+      "InboundLegId": "13554-1911300805--32480-0-10202-1911301135",
+      "PricingOptions": [
+        {
+          "Agents": [ 3934928 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 575432.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fskyp%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32132%7c1976%7c10202%7c2019-11-29T12%3a50%7c9451%7c2019-11-29T15%3a05%7c135%7cD7FFWHU%7cD%7c-%3bflight%7c-32132%7c1021%7c9451%7c2019-11-29T15%3a45%7c13554%7c2019-11-29T16%3a05%7c80%7cD7FFWHU%7cD%7c-%2cflight%7c-32480%7c868%7c13554%7c2019-11-30T08%3a05%7c10202%7c2019-11-30T11%3a35%7c150%7cCM0V2R%7cC%7c-%26carriers%3d-32132%2c-32480%26operators%3d-32132%3b-32131%2c-32480%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dtrue%26ticket_price%3d575432.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.10202.4698.191129.191130.1..B%7c-1738745795598208110%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dtrue"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291250--32132-1-13554-1911291605&InboundLegId=13554-1911300805--32480-0-10202-1911301135",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911290700--32093-0-13465-1911290845",
+      "InboundLegId": "13554-1911301950--32677-1-10202-1912010850",
+      "PricingOptions": [
+        {
+          "Agents": [ 3934928 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 290383.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fskyp%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c2201%7c10202%7c2019-11-29T07%3a00%7c13465%7c2019-11-29T08%3a45%7c165%7cFZSFXB0%7cF%7c-%2cflight%7c-32677%7c1181%7c13554%7c2019-11-30T19%3a50%7c10413%7c2019-11-30T22%3a10%7c80%7cO3LSGB%7cO%7c-%3bflight%7c-32677%7c1394%7c10413%7c2019-12-01T06%3a45%7c10202%7c2019-12-01T08%3a50%7c125%7cO3LSGB%7cO%7c-%26carriers%3d-32093%2c-32677%26operators%3d-32093%2c-32677%3b-32677%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dtrue%26ticket_price%3d290383.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.10202.4698.191129.191130.1..B%7c4819543420018316650%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dtrue"
+        },
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 388769.09,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c2201%7c10202%7c2019-11-29T07%3a00%7c13465%7c2019-11-29T08%3a45%7c165%7c-%7c-%7c-%2cflight%7c-32677%7c1181%7c13554%7c2019-11-30T19%3a50%7c10413%7c2019-11-30T22%3a10%7c80%7c-%7c-%7c-%3bflight%7c-32677%7c1394%7c10413%7c2019-12-01T06%3a45%7c10202%7c2019-12-01T08%3a50%7c125%7c-%7c-%7c-%26carriers%3d-32093%2c-32677%26operators%3d-32093%2c-32677%3b-32677%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d388769.09%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c5327669714318347157%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 395143.40,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c2201%7c10202%7c2019-11-29T07%3a00%7c13465%7c2019-11-29T08%3a45%7c165%7c-%7c-%7c-%2cflight%7c-32677%7c1181%7c13554%7c2019-11-30T19%3a50%7c10413%7c2019-11-30T22%3a10%7c80%7c-%7c-%7c-%3bflight%7c-32677%7c1394%7c10413%7c2019-12-01T06%3a45%7c10202%7c2019-12-01T08%3a50%7c125%7c-%7c-%7c-%26carriers%3d-32093%2c-32677%26operators%3d-32093%2c-32677%3b-32677%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d395143.40%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c5327669714318347157%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911290700--32093-0-13465-1911290845&InboundLegId=13554-1911301950--32677-1-10202-1912010850",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291230--32090-1-13465-1911291640",
+      "InboundLegId": "13554-1911301630--32090-1-10202-1911302250",
+      "PricingOptions": [
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 345124.87,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32090%7c1337%7c10202%7c2019-11-29T12%3a30%7c11616%7c2019-11-29T14%3a15%7c105%7c-%7c-%7c-%3bflight%7c-32090%7c934%7c11616%7c2019-11-29T16%3a10%7c13465%7c2019-11-29T16%3a40%7c90%7c-%7c-%7c-%2cflight%7c-32090%7c911%7c13554%7c2019-11-30T16%3a30%7c11616%7c2019-11-30T19%3a05%7c95%7c-%7c-%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7c-%7c-%7c-%26carriers%3d-32090%26operators%3d-32090%3b-32089%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d345124.87%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c-8826896636734256439%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 348038.16,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32090%7c1337%7c10202%7c2019-11-29T12%3a30%7c11616%7c2019-11-29T14%3a15%7c105%7c-%7c-%7c-%3bflight%7c-32090%7c934%7c11616%7c2019-11-29T16%3a10%7c13465%7c2019-11-29T16%3a40%7c90%7c-%7c-%7c-%2cflight%7c-32090%7c911%7c13554%7c2019-11-30T16%3a30%7c11616%7c2019-11-30T19%3a05%7c95%7c-%7c-%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7c-%7c-%7c-%26carriers%3d-32090%26operators%3d-32090%3b-32089%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d348038.16%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c-8826896636734256439%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291230--32090-1-13465-1911291640&InboundLegId=13554-1911301630--32090-1-10202-1911302250",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291840--32544-1-13554-1911292140",
+      "InboundLegId": "13554-1911301630--32090-1-10202-1911302250",
+      "PricingOptions": [
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 519492.60,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32544%7c722%7c10202%7c2019-11-29T18%3a40%7c17517%7c2019-11-29T19%3a30%7c50%7c-%7c-%7c-%3bflight%7c-32544%7c457%7c17517%7c2019-11-29T20%3a15%7c13554%7c2019-11-29T21%3a40%7c145%7c-%7c-%7c-%2cflight%7c-32090%7c911%7c13554%7c2019-11-30T16%3a30%7c11616%7c2019-11-30T19%3a05%7c95%7c-%7c-%7c-%3bflight%7c-32090%7c1342%7c11616%7c2019-11-30T21%3a20%7c10202%7c2019-11-30T22%3a50%7c90%7c-%7c-%7c-%26carriers%3d-32544%2c-32090%26operators%3d-32544%3b-32544%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d519492.60%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c5187398524004831918%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291840--32544-1-13554-1911292140&InboundLegId=13554-1911301630--32090-1-10202-1911302250",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291400--32093-1-13465-1911291810",
+      "InboundLegId": "13554-1911300630--32093-1-10202-1911301200",
+      "PricingOptions": [
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 256783.20,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7c-%7c-%7c-%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7c-%7c-%7c-%2cflight%7c-32093%7c286%7c13554%7c2019-11-30T06%3a30%7c17648%7c2019-11-30T10%3a00%7c150%7c-%7c-%7c-%3bflight%7c-32093%7c535%7c17648%7c2019-11-30T10%3a35%7c10202%7c2019-11-30T12%3a00%7c85%7c-%7c-%7c-%26carriers%3d-32093%26operators%3d-32093%3b-32093%2c-32093%3b-32093%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d256783.20%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c-2999171353832691734%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 261796.64,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7c-%7c-%7c-%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7c-%7c-%7c-%2cflight%7c-32093%7c286%7c13554%7c2019-11-30T06%3a30%7c17648%7c2019-11-30T10%3a00%7c150%7c-%7c-%7c-%3bflight%7c-32093%7c535%7c17648%7c2019-11-30T10%3a35%7c10202%7c2019-11-30T12%3a00%7c85%7c-%7c-%7c-%26carriers%3d-32093%26operators%3d-32093%3b-32093%2c-32093%3b-32093%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d261796.64%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c-2999171353832691734%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 3169745 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 269300.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2flota%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7cZSFXP0%7cZ%7cBUSINESS+SEMI+FLEX%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7cZSFXP0%7cZ%7cBUSINESS+SEMI+FLEX%2cflight%7c-32093%7c286%7c13554%7c2019-11-30T06%3a30%7c17648%7c2019-11-30T10%3a00%7c150%7cCSFXP0%7cC%7cBUSINESS+SEMI+FLEX%3bflight%7c-32093%7c535%7c17648%7c2019-11-30T10%3a35%7c10202%7c2019-11-30T12%3a00%7c85%7cCSFXP0%7cC%7cBUSINESS+SEMI+FLEX%26carriers%3d-32093%26operators%3d-32093%3b-32093%2c-32093%3b-32093%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d269300.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dlota.10202.4698.191129.191130.1..B%7c-3774565694210356228%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26source_website_id%3damac%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 2044837 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 302878.16,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fbghu%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7c-%7c-%7c-%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7c-%7c-%7c-%2cflight%7c-32093%7c286%7c13554%7c2019-11-30T06%3a30%7c17648%7c2019-11-30T10%3a00%7c150%7c-%7c-%7c-%3bflight%7c-32093%7c535%7c17648%7c2019-11-30T10%3a35%7c10202%7c2019-11-30T12%3a00%7c85%7c-%7c-%7c-%26carriers%3d-32093%26operators%3d-32093%3b-32093%2c-32093%3b-32093%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d302878.16%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dbghu.10202.4698.191129.191130.1..B%7c-2999171353832691734%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291400--32093-1-13465-1911291810&InboundLegId=13554-1911300630--32093-1-10202-1911301200",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291445--32090-1-13554-1911291845",
+      "InboundLegId": "13554-1911300635--32090-1-10202-1911301235",
+      "PricingOptions": [
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 343955.24,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32090%7c1339%7c10202%7c2019-11-29T14%3a45%7c11616%7c2019-11-29T16%3a30%7c105%7c-%7c-%7c-%3bflight%7c-32090%7c918%7c11616%7c2019-11-29T18%3a00%7c13554%7c2019-11-29T18%3a45%7c105%7c-%7c-%7c-%2cflight%7c-32090%7c2483%7c13554%7c2019-11-30T06%3a35%7c14385%7c2019-11-30T09%3a25%7c110%7c-%7c-%7c-%3bflight%7c-32090%7c1676%7c14385%7c2019-11-30T11%3a20%7c10202%7c2019-11-30T12%3a35%7c75%7c-%7c-%7c-%26carriers%3d-32090%26operators%3d-32090%3b-32090%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d343955.24%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c1288250896118782994%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 346871.90,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32090%7c1339%7c10202%7c2019-11-29T14%3a45%7c11616%7c2019-11-29T16%3a30%7c105%7c-%7c-%7c-%3bflight%7c-32090%7c918%7c11616%7c2019-11-29T18%3a00%7c13554%7c2019-11-29T18%3a45%7c105%7c-%7c-%7c-%2cflight%7c-32090%7c2483%7c13554%7c2019-11-30T06%3a35%7c14385%7c2019-11-30T09%3a25%7c110%7c-%7c-%7c-%3bflight%7c-32090%7c1676%7c14385%7c2019-11-30T11%3a20%7c10202%7c2019-11-30T12%3a35%7c75%7c-%7c-%7c-%26carriers%3d-32090%26operators%3d-32090%3b-32090%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d346871.90%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c1288250896118782994%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 3182916 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 347900.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fluft%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32090%7c1339%7c10202%7c2019-11-29T14%3a45%7c11616%7c2019-11-29T16%3a30%7c105%7cC10BUZE0%7cC%7cBUSINESS+FLEX%3bflight%7c-32090%7c918%7c11616%7c2019-11-29T18%3a00%7c13554%7c2019-11-29T18%3a45%7c105%7cC10BUZE0%7cC%7cBUSINESS+FLEX%2cflight%7c-32090%7c2483%7c13554%7c2019-11-30T06%3a35%7c14385%7c2019-11-30T09%3a25%7c110%7cC10BUZE0%7cC%7cBUSINESS+FLEX%3bflight%7c-32090%7c1676%7c14385%7c2019-11-30T11%3a20%7c10202%7c2019-11-30T12%3a35%7c75%7cC10BUZE0%7cC%7cBUSINESS+FLEX%26carriers%3d-32090%26operators%3d-32090%3b-32090%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d347900.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dluft.10202.4698.191129.191130.1..B%7c96277609887522561%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26source_website_id%3damac%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291445--32090-1-13554-1911291845&InboundLegId=13554-1911300635--32090-1-10202-1911301235",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291230--32090-1-13554-1911291545",
+      "InboundLegId": "13554-1911301130--32090-1-10202-1911301720",
+      "PricingOptions": [
+        {
+          "Agents": [ 3182916 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 348700.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fluft%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32090%7c1337%7c10202%7c2019-11-29T12%3a30%7c11616%7c2019-11-29T14%3a15%7c105%7cC10BUZE0%7cC%7cBUSINESS+FLEX%3bflight%7c-32090%7c910%7c11616%7c2019-11-29T15%3a00%7c13554%7c2019-11-29T15%3a45%7c105%7cC10BUZE0%7cC%7cBUSINESS+FLEX%2cflight%7c-32090%7c905%7c13554%7c2019-11-30T11%3a30%7c11616%7c2019-11-30T14%3a05%7c95%7cC10BUZE0%7cC%7cBUSINESS+FLEX%3bflight%7c-32090%7c1344%7c11616%7c2019-11-30T15%3a50%7c10202%7c2019-11-30T17%3a20%7c90%7cC10BUZE0%7cC%7cBUSINESS+FLEX%26carriers%3d-32090%26operators%3d-32090%3b-32090%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d348700.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dluft.10202.4698.191129.191130.1..B%7c7153459017631145164%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26source_website_id%3damac%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 3934928 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 554993.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fskyp%2f2%2f10202.13554.2019-11-29%2c13554.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32090%7c1337%7c10202%7c2019-11-29T12%3a30%7c11616%7c2019-11-29T14%3a15%7c105%7cC10BUZE0%7cC%7c-%3bflight%7c-32090%7c910%7c11616%7c2019-11-29T15%3a00%7c13554%7c2019-11-29T15%3a45%7c105%7cC10BUZE0%7cC%7c-%2cflight%7c-32090%7c905%7c13554%7c2019-11-30T11%3a30%7c11616%7c2019-11-30T14%3a05%7c95%7cC10BUZE0%7cC%7c-%3bflight%7c-32090%7c1344%7c11616%7c2019-11-30T15%3a50%7c10202%7c2019-11-30T17%3a20%7c90%7cC10BUZE0%7cC%7c-%26carriers%3d-32090%26operators%3d-32090%3b-32090%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dtrue%26ticket_price%3d554993.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.10202.4698.191129.191130.1..B%7c7009623708932055067%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dtrue"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291230--32090-1-13554-1911291545&InboundLegId=13554-1911301130--32090-1-10202-1911301720",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911291400--32093-1-13465-1911291810",
+      "InboundLegId": "13554-1911300600--32544-1-10202-1911301045",
+      "PricingOptions": [
+        {
+          "Agents": [ 3934928 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 419624.00,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fskyp%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7cZSFXP0%7cZ%7c-%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7cZSFXP0%7cZ%7c-%2cflight%7c-32544%7c458%7c13554%7c2019-11-30T06%3a00%7c17517%7c2019-11-30T09%3a20%7c140%7cC10BUZE0%7cC%7c-%3bflight%7c-32544%7c713%7c17517%7c2019-11-30T09%3a55%7c10202%7c2019-11-30T10%3a45%7c50%7cC10BUZE0%7cC%7c-%26carriers%3d-32093%2c-32544%26operators%3d-32093%3b-32093%2c-32544%3b-32544%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dtrue%26ticket_price%3d419624.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.10202.4698.191129.191130.1..B%7c4418214498849190441%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dtrue"
+        },
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 474177.15,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7c-%7c-%7c-%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7c-%7c-%7c-%2cflight%7c-32544%7c458%7c13554%7c2019-11-30T06%3a00%7c17517%7c2019-11-30T09%3a20%7c140%7c-%7c-%7c-%3bflight%7c-32544%7c713%7c17517%7c2019-11-30T09%3a55%7c10202%7c2019-11-30T10%3a45%7c50%7c-%7c-%7c-%26carriers%3d-32093%2c-32544%26operators%3d-32093%3b-32093%2c-32544%3b-32544%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d474177.15%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c2155715946452263618%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 480591.80,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32093%7c542%7c10202%7c2019-11-29T14%3a00%7c17648%7c2019-11-29T15%3a15%7c75%7c-%7c-%7c-%3bflight%7c-32093%7c289%7c17648%7c2019-11-29T16%3a30%7c13465%7c2019-11-29T18%3a10%7c160%7c-%7c-%7c-%2cflight%7c-32544%7c458%7c13554%7c2019-11-30T06%3a00%7c17517%7c2019-11-30T09%3a20%7c140%7c-%7c-%7c-%3bflight%7c-32544%7c713%7c17517%7c2019-11-30T09%3a55%7c10202%7c2019-11-30T10%3a45%7c50%7c-%7c-%7c-%26carriers%3d-32093%2c-32544%26operators%3d-32093%3b-32093%2c-32544%3b-32544%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d480591.80%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c2155715946452263618%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911291400--32093-1-13465-1911291810&InboundLegId=13554-1911300600--32544-1-10202-1911301045",
+        "Method": "PUT"
+      }
+    },
+    {
+      "OutboundLegId": "10202-1911290945--31799-1-13465-1911291250",
+      "InboundLegId": "13554-1911301750--32090-1-10202-1911302325",
+      "PricingOptions": [
+        {
+          "Agents": [ 2627446 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 344724.46,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fgtbf%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31799%7c2251%7c10202%7c2019-11-29T09%3a45%7c18563%7c2019-11-29T11%3a30%7c105%7c-%7c-%7c-%3bflight%7c-31799%7c456%7c18563%7c2019-11-29T12%3a10%7c13465%7c2019-11-29T12%3a50%7c100%7c-%7c-%7c-%2cflight%7c-32090%7c2479%7c13554%7c2019-11-30T17%3a50%7c14385%7c2019-11-30T20%3a40%7c110%7c-%7c-%7c-%3bflight%7c-32090%7c1682%7c14385%7c2019-11-30T22%3a10%7c10202%7c2019-11-30T23%3a25%7c75%7c-%7c-%7c-%26carriers%3d-31799%2c-32090%26operators%3d-31799%3b-32238%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d344724.46%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dgtbf.10202.4698.191129.191130.1..B%7c2318777627618693703%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        },
+        {
+          "Agents": [ 1963108 ],
+          "QuoteAgeInMinutes": 9,
+          "Price": 346401.22,
+          "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fHU%2fhu-HU%2fHUF%2fat24%2f2%2f10202.4698.2019-11-29%2c4698.10202.2019-11-30%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31799%7c2251%7c10202%7c2019-11-29T09%3a45%7c18563%7c2019-11-29T11%3a30%7c105%7c-%7c-%7c-%3bflight%7c-31799%7c456%7c18563%7c2019-11-29T12%3a10%7c13465%7c2019-11-29T12%3a50%7c100%7c-%7c-%7c-%2cflight%7c-32090%7c2479%7c13554%7c2019-11-30T17%3a50%7c14385%7c2019-11-30T20%3a40%7c110%7c-%7c-%7c-%3bflight%7c-32090%7c1682%7c14385%7c2019-11-30T22%3a10%7c10202%7c2019-11-30T23%3a25%7c75%7c-%7c-%7c-%26carriers%3d-31799%2c-32090%26operators%3d-31799%3b-32238%2c-32090%3b-32090%26passengers%3d1%26channel%3ddataapi%26cabin_class%3dbusiness%26facilitated%3dfalse%26ticket_price%3d346401.22%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dat24.10202.4698.191129.191130.1..B%7c2318777627618693703%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-11-28T19%3a26%3a00%26pqid%3dfalse"
+        }
+      ],
+      "BookingDetailsLink": {
+        "Uri": "/apiservices/pricing/v1.0/5350c495-f127-4c22-9f54-e0c38f22bd3b/booking",
+        "Body": "OutboundLegId=10202-1911290945--31799-1-13465-1911291250&InboundLegId=13554-1911301750--32090-1-10202-1911302325",
+        "Method": "PUT"
+      }
+    }
+  ],
+  "Legs": [
+    {
+      "Id": "10202-1911291205--32478-1-13554-1911291705",
+      "SegmentIds": [ 0, 1 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:05:00",
+      "Arrival": "2019-11-29T17:05:00",
+      "Duration": 360,
+      "JourneyMode": "Flight",
+      "Stops": [ 10141 ],
+      "Carriers": [ 1710 ],
+      "OperatingCarriers": [ 1710 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2824",
+          "CarrierId": 1710
+        },
+        {
+          "FlightNumber": "2095",
+          "CarrierId": 1710
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291250--32132-1-13554-1911291605",
+      "SegmentIds": [ 4, 5 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:50:00",
+      "Arrival": "2019-11-29T16:05:00",
+      "Duration": 255,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324, 1889 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1976",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1021",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290700--32093-0-13465-1911290845",
+      "SegmentIds": [ 7 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T07:00:00",
+      "Arrival": "2019-11-29T08:45:00",
+      "Duration": 165,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2201",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291230--32090-1-13465-1911291640",
+      "SegmentIds": [ 10, 11 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T12:30:00",
+      "Arrival": "2019-11-29T16:40:00",
+      "Duration": 310,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368, 940 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1337",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "934",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291840--32544-1-13554-1911292140",
+      "SegmentIds": [ 13, 14 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T18:40:00",
+      "Arrival": "2019-11-29T21:40:00",
+      "Duration": 240,
+      "JourneyMode": "Flight",
+      "Stops": [ 17517 ],
+      "Carriers": [ 1523 ],
+      "OperatingCarriers": [ 1523 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "722",
+          "CarrierId": 1523
+        },
+        {
+          "FlightNumber": "457",
+          "CarrierId": 1523
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291400--32093-1-13465-1911291810",
+      "SegmentIds": [ 15, 16 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T14:00:00",
+      "Arrival": "2019-11-29T18:10:00",
+      "Duration": 310,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "542",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "289",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291445--32090-1-13554-1911291845",
+      "SegmentIds": [ 19, 20 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T14:45:00",
+      "Arrival": "2019-11-29T18:45:00",
+      "Duration": 300,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1339",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "918",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291230--32090-1-13554-1911291545",
+      "SegmentIds": [ 10, 23 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:30:00",
+      "Arrival": "2019-11-29T15:45:00",
+      "Duration": 255,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1337",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "910",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290945--31799-1-13465-1911291250",
+      "SegmentIds": [ 28, 29 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T09:45:00",
+      "Arrival": "2019-11-29T12:50:00",
+      "Duration": 245,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384, 124 ],
+      "Directionality": "Outbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2251",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "456",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301730--32090-1-10202-1911302250",
+      "SegmentIds": [ 2, 3 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T17:30:00",
+      "Arrival": "2019-11-30T22:50:00",
+      "Duration": 260,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "915",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1342",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300805--32480-0-10202-1911301135",
+      "SegmentIds": [ 6 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:05:00",
+      "Arrival": "2019-11-30T11:35:00",
+      "Duration": 150,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 881 ],
+      "OperatingCarriers": [ 881 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "868",
+          "CarrierId": 881
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301950--32677-1-10202-1912010850",
+      "SegmentIds": [ 8, 9 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T19:50:00",
+      "Arrival": "2019-12-01T08:50:00",
+      "Duration": 720,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1181",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1394",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301630--32090-1-10202-1911302250",
+      "SegmentIds": [ 12, 3 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T16:30:00",
+      "Arrival": "2019-11-30T22:50:00",
+      "Duration": 320,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1342",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "911",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300630--32093-1-10202-1911301200",
+      "SegmentIds": [ 17, 18 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:30:00",
+      "Arrival": "2019-11-30T12:00:00",
+      "Duration": 270,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "286",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "535",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300635--32090-1-10202-1911301235",
+      "SegmentIds": [ 21, 22 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:35:00",
+      "Arrival": "2019-11-30T12:35:00",
+      "Duration": 300,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2483",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1676",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301130--32090-1-10202-1911301720",
+      "SegmentIds": [ 24, 25 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T11:30:00",
+      "Arrival": "2019-11-30T17:20:00",
+      "Duration": 290,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "905",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1344",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300600--32544-1-10202-1911301045",
+      "SegmentIds": [ 26, 27 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:00:00",
+      "Arrival": "2019-11-30T10:45:00",
+      "Duration": 225,
+      "JourneyMode": "Flight",
+      "Stops": [ 17517 ],
+      "Carriers": [ 1523 ],
+      "OperatingCarriers": [ 1523 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "458",
+          "CarrierId": 1523
+        },
+        {
+          "FlightNumber": "713",
+          "CarrierId": 1523
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301750--32090-1-10202-1911302325",
+      "SegmentIds": [ 30, 31 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T17:50:00",
+      "Arrival": "2019-11-30T23:25:00",
+      "Duration": 275,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2479",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1682",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290945--32677-1-13554-1911291345",
+      "SegmentIds": [ 32, 33 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T09:45:00",
+      "Arrival": "2019-11-29T13:45:00",
+      "Duration": 300,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1395",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1780",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291705--32132-1-13554-1911292050",
+      "SegmentIds": [ 34, 35 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T17:05:00",
+      "Arrival": "2019-11-29T20:50:00",
+      "Duration": 285,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1978",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1033",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300840--32132-1-10202-1911301615",
+      "SegmentIds": [ 36, 37 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:40:00",
+      "Arrival": "2019-11-30T16:15:00",
+      "Duration": 395,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1002",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1977",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301825--32480-0-10202-1911302155",
+      "SegmentIds": [ 38 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T18:25:00",
+      "Arrival": "2019-11-30T21:55:00",
+      "Duration": 150,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 881 ],
+      "OperatingCarriers": [ 881 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "870",
+          "CarrierId": 881
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291135--32317-1-13554-1911291700",
+      "SegmentIds": [ 39, 40 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T11:35:00",
+      "Arrival": "2019-11-29T17:00:00",
+      "Duration": 385,
+      "JourneyMode": "Flight",
+      "Stops": [ 12126 ],
+      "Carriers": [ 857 ],
+      "OperatingCarriers": [ 857 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1252",
+          "CarrierId": 857
+        },
+        {
+          "FlightNumber": "1337",
+          "CarrierId": 857
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301735--32677-1-10202-1911302310",
+      "SegmentIds": [ 41, 42 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T17:35:00",
+      "Arrival": "2019-11-30T23:10:00",
+      "Duration": 275,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1281",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1694",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291250--32132-1-13465-1911291720",
+      "SegmentIds": [ 4, 43 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T12:50:00",
+      "Arrival": "2019-11-29T17:20:00",
+      "Duration": 330,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324, 1889 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1976",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "993",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301525--32677-1-10202-1911302310",
+      "SegmentIds": [ 44, 42 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T15:25:00",
+      "Arrival": "2019-11-30T23:10:00",
+      "Duration": 405,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1694",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1781",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291040--32090-1-13554-1911291445",
+      "SegmentIds": [ 45, 46 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T10:40:00",
+      "Arrival": "2019-11-29T14:45:00",
+      "Duration": 305,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1335",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "908",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291320--32090-1-13554-1911291705",
+      "SegmentIds": [ 47, 48 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T13:20:00",
+      "Arrival": "2019-11-29T17:05:00",
+      "Duration": 285,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1677",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2478",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300830--32090-1-10202-1911301350",
+      "SegmentIds": [ 49, 50 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:30:00",
+      "Arrival": "2019-11-30T13:50:00",
+      "Duration": 260,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "925",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1338",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290600--32677-1-13554-1911291030",
+      "SegmentIds": [ 51, 52 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:00:00",
+      "Arrival": "2019-11-29T10:30:00",
+      "Duration": 330,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1695",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1580",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300850--31799-1-10202-1911301400",
+      "SegmentIds": [ 53, 54 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:50:00",
+      "Arrival": "2019-11-30T14:00:00",
+      "Duration": 250,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384, 124 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "317",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "2254",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301925--32317-1-10202-1912011050",
+      "SegmentIds": [ 55, 56 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T19:25:00",
+      "Arrival": "2019-12-01T10:50:00",
+      "Duration": 865,
+      "JourneyMode": "Flight",
+      "Stops": [ 12126 ],
+      "Carriers": [ 857 ],
+      "OperatingCarriers": [ 857 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1342",
+          "CarrierId": 857
+        },
+        {
+          "FlightNumber": "1251",
+          "CarrierId": 857
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290855--31779-1-13554-1911291405",
+      "SegmentIds": [ 57, 58 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T08:55:00",
+      "Arrival": "2019-11-29T14:05:00",
+      "Duration": 370,
+      "JourneyMode": "Flight",
+      "Stops": [ 15116 ],
+      "Carriers": [ 1663 ],
+      "OperatingCarriers": [ 1663 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "232",
+          "CarrierId": 1663
+        },
+        {
+          "FlightNumber": "391",
+          "CarrierId": 1663
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301025--32093-1-10202-1911301645",
+      "SegmentIds": [ 59, 60 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T10:25:00",
+      "Arrival": "2019-11-30T16:45:00",
+      "Duration": 320,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "282",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "537",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300630--32132-1-10202-1911301205",
+      "SegmentIds": [ 61, 62 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:30:00",
+      "Arrival": "2019-11-30T12:05:00",
+      "Duration": 275,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1000",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1975",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291715--32093-0-13465-1911291900",
+      "SegmentIds": [ 63 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T17:15:00",
+      "Arrival": "2019-11-29T19:00:00",
+      "Duration": 165,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2203",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301750--32132-1-10202-1911302305",
+      "SegmentIds": [ 64, 65 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T17:50:00",
+      "Arrival": "2019-11-30T23:05:00",
+      "Duration": 255,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1889, 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1030",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1981",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911302215--32756-1-10202-1912010930",
+      "SegmentIds": [ 66, 67 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T22:15:00",
+      "Arrival": "2019-12-01T09:30:00",
+      "Duration": 615,
+      "JourneyMode": "Flight",
+      "Stops": [ 9592 ],
+      "Carriers": [ 819 ],
+      "OperatingCarriers": [ 819 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "609",
+          "CarrierId": 819
+        },
+        {
+          "FlightNumber": "876",
+          "CarrierId": 819
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290710--32480-0-13554-1911290905",
+      "SegmentIds": [ 68 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T07:10:00",
+      "Arrival": "2019-11-29T09:05:00",
+      "Duration": 175,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 881 ],
+      "OperatingCarriers": [ 881 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "865",
+          "CarrierId": 881
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300740--32090-1-10202-1911301235",
+      "SegmentIds": [ 69, 22 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T07:40:00",
+      "Arrival": "2019-11-30T12:35:00",
+      "Duration": 235,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1676",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2485",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291655--32090-1-13554-1911292055",
+      "SegmentIds": [ 70, 71 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T16:55:00",
+      "Arrival": "2019-11-29T20:55:00",
+      "Duration": 300,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1679",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2482",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301110--32090-1-10202-1911301610",
+      "SegmentIds": [ 72, 73 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T11:10:00",
+      "Arrival": "2019-11-30T16:10:00",
+      "Duration": 240,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2473",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1678",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291140--32588-1-13554-1911291910",
+      "SegmentIds": [ 74, 75 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T11:40:00",
+      "Arrival": "2019-11-29T19:10:00",
+      "Duration": 510,
+      "JourneyMode": "Flight",
+      "Stops": [ 11493 ],
+      "Carriers": [ 858 ],
+      "OperatingCarriers": [ 858 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "479",
+          "CarrierId": 858
+        },
+        {
+          "FlightNumber": "208",
+          "CarrierId": 858
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290920--32090-1-13554-1911291300",
+      "SegmentIds": [ 76, 77 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T09:20:00",
+      "Arrival": "2019-11-29T13:00:00",
+      "Duration": 280,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 940, 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1675",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2474",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291705--32132-1-13465-1911292015",
+      "SegmentIds": [ 34, 78 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T17:05:00",
+      "Arrival": "2019-11-29T20:15:00",
+      "Duration": 250,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324, 1889 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1978",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "979",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290620--32478-1-13554-1911291005",
+      "SegmentIds": [ 79, 80 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:20:00",
+      "Arrival": "2019-11-29T10:05:00",
+      "Duration": 285,
+      "JourneyMode": "Flight",
+      "Stops": [ 10141 ],
+      "Carriers": [ 1710 ],
+      "OperatingCarriers": [ 1710 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2830",
+          "CarrierId": 1710
+        },
+        {
+          "FlightNumber": "2093",
+          "CarrierId": 1710
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291855--32090-1-13554-1911292215",
+      "SegmentIds": [ 81, 82 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T18:55:00",
+      "Arrival": "2019-11-29T22:15:00",
+      "Duration": 260,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1341",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "922",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291815--32090-1-13554-1911292215",
+      "SegmentIds": [ 83, 82 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T18:15:00",
+      "Arrival": "2019-11-29T22:15:00",
+      "Duration": 300,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "922",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1345",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301645--32090-1-10202-1911302325",
+      "SegmentIds": [ 84, 31 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T16:45:00",
+      "Arrival": "2019-11-30T23:25:00",
+      "Duration": 340,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1682",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2477",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290630--32132-1-13554-1911291045",
+      "SegmentIds": [ 85, 86 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:30:00",
+      "Arrival": "2019-11-29T10:45:00",
+      "Duration": 315,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1972",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1009",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290615--32090-1-13465-1911290930",
+      "SegmentIds": [ 87, 88 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T06:15:00",
+      "Arrival": "2019-11-29T09:30:00",
+      "Duration": 255,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368, 940 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1343",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "928",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291625--32677-1-13554-1911292145",
+      "SegmentIds": [ 89, 90 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T16:25:00",
+      "Arrival": "2019-11-29T21:45:00",
+      "Duration": 380,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1295",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1380",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291745--32480-0-13554-1911291930",
+      "SegmentIds": [ 91 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T17:45:00",
+      "Arrival": "2019-11-29T19:30:00",
+      "Duration": 165,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 881 ],
+      "OperatingCarriers": [ 881 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "867",
+          "CarrierId": 881
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301405--32132-1-10202-1911302305",
+      "SegmentIds": [ 92, 65 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T14:05:00",
+      "Arrival": "2019-11-30T23:05:00",
+      "Duration": 480,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1981",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1012",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911302230--32741-1-10202-1912010935",
+      "SegmentIds": [ 93, 94 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T22:30:00",
+      "Arrival": "2019-12-01T09:35:00",
+      "Duration": 605,
+      "JourneyMode": "Flight",
+      "Stops": [ 16626 ],
+      "Carriers": [ 1717 ],
+      "OperatingCarriers": [ 1717 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2575",
+          "CarrierId": 1717
+        },
+        {
+          "FlightNumber": "2032",
+          "CarrierId": 1717
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291735--32478-1-13554-1911292120",
+      "SegmentIds": [ 95, 96 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T17:35:00",
+      "Arrival": "2019-11-29T21:20:00",
+      "Duration": 285,
+      "JourneyMode": "Flight",
+      "Stops": [ 10141 ],
+      "Carriers": [ 1710 ],
+      "OperatingCarriers": [ 1710 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2826",
+          "CarrierId": 1710
+        },
+        {
+          "FlightNumber": "2103",
+          "CarrierId": 1710
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291235--32093-1-13554-1911291720",
+      "SegmentIds": [ 97, 98 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:35:00",
+      "Arrival": "2019-11-29T17:20:00",
+      "Duration": 345,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "536",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "279",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13465-1911300915--32093-0-10202-1911301245",
+      "SegmentIds": [ 99 ],
+      "OriginStation": 13465,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T09:15:00",
+      "Arrival": "2019-11-30T12:45:00",
+      "Duration": 150,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2202",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13465-1911300840--32132-1-10202-1911301615",
+      "SegmentIds": [ 100, 37 ],
+      "OriginStation": 13465,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:40:00",
+      "Arrival": "2019-11-30T16:15:00",
+      "Duration": 395,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1889, 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1977",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "986",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301115--32132-1-10202-1911301615",
+      "SegmentIds": [ 101, 37 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T11:15:00",
+      "Arrival": "2019-11-30T16:15:00",
+      "Duration": 240,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1977",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1024",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300630--32093-1-10202-1911301645",
+      "SegmentIds": [ 17, 60 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:30:00",
+      "Arrival": "2019-11-30T16:45:00",
+      "Duration": 555,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "286",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "537",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291235--32093-1-13465-1911291810",
+      "SegmentIds": [ 97, 16 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T12:35:00",
+      "Arrival": "2019-11-29T18:10:00",
+      "Duration": 395,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "289",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "536",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290615--32090-1-13554-1911290945",
+      "SegmentIds": [ 87, 102 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:15:00",
+      "Arrival": "2019-11-29T09:45:00",
+      "Duration": 270,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1343",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "902",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13465-1911301000--32132-1-10202-1911301615",
+      "SegmentIds": [ 103, 37 ],
+      "OriginStation": 13465,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T10:00:00",
+      "Arrival": "2019-11-30T16:15:00",
+      "Duration": 315,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1889, 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1977",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "988",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "13465-1911300800--32093-1-10202-1911301645",
+      "SegmentIds": [ 104, 60 ],
+      "OriginStation": 13465,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:00:00",
+      "Arrival": "2019-11-30T16:45:00",
+      "Duration": 465,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "537",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "288",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301625--32132-1-10202-1911302305",
+      "SegmentIds": [ 105, 65 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T16:25:00",
+      "Arrival": "2019-11-30T23:05:00",
+      "Duration": 340,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1889, 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1981",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1018",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291225--32480-0-13554-1911291410",
+      "SegmentIds": [ 106 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:25:00",
+      "Arrival": "2019-11-29T14:10:00",
+      "Duration": 165,
+      "JourneyMode": "Flight",
+      "Stops": [],
+      "Carriers": [ 881 ],
+      "OperatingCarriers": [ 881 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "869",
+          "CarrierId": 881
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301020--32317-1-10202-1911301830",
+      "SegmentIds": [ 107, 108 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T10:20:00",
+      "Arrival": "2019-11-30T18:30:00",
+      "Duration": 430,
+      "JourneyMode": "Flight",
+      "Stops": [ 12126 ],
+      "Carriers": [ 857 ],
+      "OperatingCarriers": [ 857 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1332",
+          "CarrierId": 857
+        },
+        {
+          "FlightNumber": "1255",
+          "CarrierId": 857
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290545--31781-1-13554-1911291240",
+      "SegmentIds": [ 109, 110 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T05:45:00",
+      "Arrival": "2019-11-29T12:40:00",
+      "Duration": 475,
+      "JourneyMode": "Flight",
+      "Stops": [ 13577 ],
+      "Carriers": [ 1760 ],
+      "OperatingCarriers": [ 1760 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1251",
+          "CarrierId": 1760
+        },
+        {
+          "FlightNumber": "1352",
+          "CarrierId": 1760
+        }
+      ]
+    },
+    {
+      "Id": "13542-1911302300--31728-1-10202-1912011010",
+      "SegmentIds": [ 111, 112 ],
+      "OriginStation": 13542,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T23:00:00",
+      "Arrival": "2019-12-01T10:10:00",
+      "Duration": 610,
+      "JourneyMode": "Flight",
+      "Stops": [ 12911 ],
+      "Carriers": [ 1571 ],
+      "OperatingCarriers": [ 1571 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "114",
+          "CarrierId": 1571
+        },
+        {
+          "FlightNumber": "813",
+          "CarrierId": 1571
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291445--32090-1-13554-1911292045",
+      "SegmentIds": [ 19, 113 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T14:45:00",
+      "Arrival": "2019-11-29T20:45:00",
+      "Duration": 420,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1339",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "920",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291720--32093-1-13554-1911292150",
+      "SegmentIds": [ 114, 115 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T17:20:00",
+      "Arrival": "2019-11-29T21:50:00",
+      "Duration": 330,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "538",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "285",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301815--32093-1-10202-1912011200",
+      "SegmentIds": [ 116, 117 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T18:15:00",
+      "Arrival": "2019-12-01T12:00:00",
+      "Duration": 1005,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "280",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "535",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13542-1911301410--31939-1-10202-1912010540",
+      "SegmentIds": [ 118, 119 ],
+      "OriginStation": 13542,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T14:10:00",
+      "Arrival": "2019-12-01T05:40:00",
+      "Duration": 870,
+      "JourneyMode": "Flight",
+      "Stops": [ 11089 ],
+      "Carriers": [ 1618 ],
+      "OperatingCarriers": [ 1618 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "328",
+          "CarrierId": 1618
+        },
+        {
+          "FlightNumber": "201",
+          "CarrierId": 1618
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301545--32132-1-10202-1911302305",
+      "SegmentIds": [ 120, 65 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T15:45:00",
+      "Arrival": "2019-11-30T23:05:00",
+      "Duration": 380,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1889, 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1981",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1032",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290605--32090-1-13554-1911291025",
+      "SegmentIds": [ 121, 122 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:05:00",
+      "Arrival": "2019-11-29T10:25:00",
+      "Duration": 320,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1683",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2472",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301130--32677-1-10202-1911302310",
+      "SegmentIds": [ 123, 42 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T11:30:00",
+      "Arrival": "2019-11-30T23:10:00",
+      "Duration": 640,
+      "JourneyMode": "Flight",
+      "Stops": [ 10413 ],
+      "Carriers": [ 838 ],
+      "OperatingCarriers": [ 838 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1694",
+          "CarrierId": 838
+        },
+        {
+          "FlightNumber": "1581",
+          "CarrierId": 838
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301030--32090-1-10202-1911301720",
+      "SegmentIds": [ 124, 25 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T10:30:00",
+      "Arrival": "2019-11-30T17:20:00",
+      "Duration": 350,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1344",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "903",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290615--32090-1-13554-1911291045",
+      "SegmentIds": [ 87, 125 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:15:00",
+      "Arrival": "2019-11-29T10:45:00",
+      "Duration": 330,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1343",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "904",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300845--32090-1-10202-1911301610",
+      "SegmentIds": [ 126, 73 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T08:45:00",
+      "Arrival": "2019-11-30T16:10:00",
+      "Duration": 385,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1678",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2471",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290620--32478-1-13554-1911291705",
+      "SegmentIds": [ 79, 1 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T06:20:00",
+      "Arrival": "2019-11-29T17:05:00",
+      "Duration": 705,
+      "JourneyMode": "Flight",
+      "Stops": [ 10141 ],
+      "Carriers": [ 1710 ],
+      "OperatingCarriers": [ 1710 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2095",
+          "CarrierId": 1710
+        },
+        {
+          "FlightNumber": "2830",
+          "CarrierId": 1710
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300905--32544-1-10202-1911301805",
+      "SegmentIds": [ 127, 128 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T09:05:00",
+      "Arrival": "2019-11-30T18:05:00",
+      "Duration": 480,
+      "JourneyMode": "Flight",
+      "Stops": [ 17517 ],
+      "Carriers": [ 1523 ],
+      "OperatingCarriers": [ 1523 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "452",
+          "CarrierId": 1523
+        },
+        {
+          "FlightNumber": "721",
+          "CarrierId": 1523
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300630--32090-1-10202-1911301145",
+      "SegmentIds": [ 129, 130 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:30:00",
+      "Arrival": "2019-11-30T11:45:00",
+      "Duration": 255,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "921",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1336",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291230--32090-1-13465-1911291740",
+      "SegmentIds": [ 10, 131 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T12:30:00",
+      "Arrival": "2019-11-29T17:40:00",
+      "Duration": 370,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368, 940 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1337",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "936",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300930--32090-1-10202-1911301720",
+      "SegmentIds": [ 132, 25 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T09:30:00",
+      "Arrival": "2019-11-30T17:20:00",
+      "Duration": 410,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1344",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "901",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911292330--32741-1-13554-1911300930",
+      "SegmentIds": [ 133, 134 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T23:30:00",
+      "Arrival": "2019-11-30T09:30:00",
+      "Duration": 660,
+      "JourneyMode": "Flight",
+      "Stops": [ 16626 ],
+      "Carriers": [ 1717 ],
+      "OperatingCarriers": [ 1717 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2469",
+          "CarrierId": 1717
+        },
+        {
+          "FlightNumber": "2580",
+          "CarrierId": 1717
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291445--31799-1-13465-1911291750",
+      "SegmentIds": [ 135, 136 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T14:45:00",
+      "Arrival": "2019-11-29T17:50:00",
+      "Duration": 245,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 124, 1384 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2255",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "466",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291400--32093-1-13554-1911292150",
+      "SegmentIds": [ 15, 115 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T14:00:00",
+      "Arrival": "2019-11-29T21:50:00",
+      "Duration": 530,
+      "JourneyMode": "Flight",
+      "Stops": [ 17648 ],
+      "Carriers": [ 1375 ],
+      "OperatingCarriers": [ 1375 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "542",
+          "CarrierId": 1375
+        },
+        {
+          "FlightNumber": "285",
+          "CarrierId": 1375
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301810--32317-1-10202-1912011050",
+      "SegmentIds": [ 137, 56 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T18:10:00",
+      "Arrival": "2019-12-01T10:50:00",
+      "Duration": 940,
+      "JourneyMode": "Flight",
+      "Stops": [ 12126 ],
+      "Carriers": [ 857 ],
+      "OperatingCarriers": [ 857 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1251",
+          "CarrierId": 857
+        },
+        {
+          "FlightNumber": "1338",
+          "CarrierId": 857
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301530--32090-1-10202-1911302250",
+      "SegmentIds": [ 138, 3 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T15:30:00",
+      "Arrival": "2019-11-30T22:50:00",
+      "Duration": 380,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1342",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "909",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291230--32090-1-13554-1911291645",
+      "SegmentIds": [ 10, 139 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:30:00",
+      "Arrival": "2019-11-29T16:45:00",
+      "Duration": 315,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1337",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "914",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301350--32090-2-10202-1911302250",
+      "SegmentIds": [ 140, 141, 3 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T13:50:00",
+      "Arrival": "2019-11-30T22:50:00",
+      "Duration": 480,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385, 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1342",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2475",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "119",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300730--32317-1-10202-1911301830",
+      "SegmentIds": [ 142, 108 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T07:30:00",
+      "Arrival": "2019-11-30T18:30:00",
+      "Duration": 600,
+      "JourneyMode": "Flight",
+      "Stops": [ 12126 ],
+      "Carriers": [ 857 ],
+      "OperatingCarriers": [ 857 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1255",
+          "CarrierId": 857
+        },
+        {
+          "FlightNumber": "1340",
+          "CarrierId": 857
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911292000--31799-1-13465-1911300930",
+      "SegmentIds": [ 143, 144 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T20:00:00",
+      "Arrival": "2019-11-30T09:30:00",
+      "Duration": 870,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384, 124 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2259",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "460",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291120--32544-1-13554-1911291840",
+      "SegmentIds": [ 145, 146 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T11:20:00",
+      "Arrival": "2019-11-29T18:40:00",
+      "Duration": 500,
+      "JourneyMode": "Flight",
+      "Stops": [ 17517 ],
+      "Carriers": [ 1523 ],
+      "OperatingCarriers": [ 1523 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "714",
+          "CarrierId": 1523
+        },
+        {
+          "FlightNumber": "455",
+          "CarrierId": 1523
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301935--32544-1-10202-1912011045",
+      "SegmentIds": [ 147, 148 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T19:35:00",
+      "Arrival": "2019-12-01T10:45:00",
+      "Duration": 850,
+      "JourneyMode": "Flight",
+      "Stops": [ 17517 ],
+      "Carriers": [ 1523 ],
+      "OperatingCarriers": [ 1523 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "456",
+          "CarrierId": 1523
+        },
+        {
+          "FlightNumber": "713",
+          "CarrierId": 1523
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301850--32588-1-10202-1912011050",
+      "SegmentIds": [ 149, 150 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T18:50:00",
+      "Arrival": "2019-12-01T10:50:00",
+      "Duration": 900,
+      "JourneyMode": "Flight",
+      "Stops": [ 11493 ],
+      "Carriers": [ 858 ],
+      "OperatingCarriers": [ 858 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "209",
+          "CarrierId": 858
+        },
+        {
+          "FlightNumber": "478",
+          "CarrierId": 858
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291100--31728-1-13542-1911301125",
+      "SegmentIds": [ 151, 152 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13542,
+      "Departure": "2019-11-29T11:00:00",
+      "Arrival": "2019-11-30T11:25:00",
+      "Duration": 1525,
+      "JourneyMode": "Flight",
+      "Stops": [ 12911 ],
+      "Carriers": [ 1571 ],
+      "OperatingCarriers": [ 1571 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "814",
+          "CarrierId": 1571
+        },
+        {
+          "FlightNumber": "111",
+          "CarrierId": 1571
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301705--32132-1-10202-1911302305",
+      "SegmentIds": [ 153, 65 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T17:05:00",
+      "Arrival": "2019-11-30T23:05:00",
+      "Duration": 300,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1889, 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1981",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1022",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290945--31799-1-13554-1911291615",
+      "SegmentIds": [ 28, 154 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T09:45:00",
+      "Arrival": "2019-11-29T16:15:00",
+      "Duration": 450,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2251",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "324",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300730--32090-1-10202-1911301350",
+      "SegmentIds": [ 155, 50 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T07:30:00",
+      "Arrival": "2019-11-30T13:50:00",
+      "Duration": 320,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1338",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "923",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291040--32090-1-13554-1911291545",
+      "SegmentIds": [ 45, 23 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T10:40:00",
+      "Arrival": "2019-11-29T15:45:00",
+      "Duration": 365,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "910",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "1335",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911291250--32132-1-13554-1911291700",
+      "SegmentIds": [ 4, 156 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T12:50:00",
+      "Arrival": "2019-11-29T17:00:00",
+      "Duration": 310,
+      "JourneyMode": "Flight",
+      "Stops": [ 9451 ],
+      "Carriers": [ 1324 ],
+      "OperatingCarriers": [ 1324 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1976",
+          "CarrierId": 1324
+        },
+        {
+          "FlightNumber": "1023",
+          "CarrierId": 1324
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290545--31781-2-13542-1911292000",
+      "SegmentIds": [ 109, 157, 158 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13542,
+      "Departure": "2019-11-29T05:45:00",
+      "Arrival": "2019-11-29T20:00:00",
+      "Duration": 915,
+      "JourneyMode": "Flight",
+      "Stops": [ 13577, 15055 ],
+      "Carriers": [ 1760 ],
+      "OperatingCarriers": [ 1760, 1465 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1251",
+          "CarrierId": 1760
+        },
+        {
+          "FlightNumber": "1948",
+          "CarrierId": 1760
+        },
+        {
+          "FlightNumber": "1332",
+          "CarrierId": 1760
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301435--32544-1-10202-1912011045",
+      "SegmentIds": [ 159, 148 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T14:35:00",
+      "Arrival": "2019-12-01T10:45:00",
+      "Duration": 1150,
+      "JourneyMode": "Flight",
+      "Stops": [ 17517 ],
+      "Carriers": [ 1523 ],
+      "OperatingCarriers": [ 1523 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "713",
+          "CarrierId": 1523
+        },
+        {
+          "FlightNumber": "462",
+          "CarrierId": 1523
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911292100--32090-1-13554-1911300805",
+      "SegmentIds": [ 160, 161 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T21:00:00",
+      "Arrival": "2019-11-30T08:05:00",
+      "Duration": 725,
+      "JourneyMode": "Flight",
+      "Stops": [ 14385 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1681",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "2470",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "13542-1911301220--31728-1-10202-1912011010",
+      "SegmentIds": [ 162, 112 ],
+      "OriginStation": 13542,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T12:20:00",
+      "Arrival": "2019-12-01T10:10:00",
+      "Duration": 1250,
+      "JourneyMode": "Flight",
+      "Stops": [ 12911 ],
+      "Carriers": [ 1571 ],
+      "OperatingCarriers": [ 1571 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "813",
+          "CarrierId": 1571
+        },
+        {
+          "FlightNumber": "112",
+          "CarrierId": 1571
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911301655--32588-1-10202-1912011050",
+      "SegmentIds": [ 163, 150 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T16:55:00",
+      "Arrival": "2019-12-01T10:50:00",
+      "Duration": 1015,
+      "JourneyMode": "Flight",
+      "Stops": [ 11493 ],
+      "Carriers": [ 858 ],
+      "OperatingCarriers": [ 858 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "478",
+          "CarrierId": 858
+        },
+        {
+          "FlightNumber": "207",
+          "CarrierId": 858
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300600--31799-1-10202-1911301400",
+      "SegmentIds": [ 164, 54 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:00:00",
+      "Arrival": "2019-11-30T14:00:00",
+      "Duration": 420,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384, 124 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2254",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "345",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300630--32090-1-10202-1911301350",
+      "SegmentIds": [ 129, 50 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T06:30:00",
+      "Arrival": "2019-11-30T13:50:00",
+      "Duration": 380,
+      "JourneyMode": "Flight",
+      "Stops": [ 11616 ],
+      "Carriers": [ 1368 ],
+      "OperatingCarriers": [ 1368 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1338",
+          "CarrierId": 1368
+        },
+        {
+          "FlightNumber": "921",
+          "CarrierId": 1368
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290945--31799-2-13554-1911291640",
+      "SegmentIds": [ 28, 165, 166 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T09:45:00",
+      "Arrival": "2019-11-29T16:40:00",
+      "Duration": 475,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563, 12015 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2251",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "2806",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "348",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "13554-1911300755--32317-1-10202-1911301830",
+      "SegmentIds": [ 167, 108 ],
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "Departure": "2019-11-30T07:55:00",
+      "Arrival": "2019-11-30T18:30:00",
+      "Duration": 575,
+      "JourneyMode": "Flight",
+      "Stops": [ 12126 ],
+      "Carriers": [ 857 ],
+      "OperatingCarriers": [ 881, 857 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "1255",
+          "CarrierId": 857
+        },
+        {
+          "FlightNumber": "5904",
+          "CarrierId": 857
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290945--31799-1-13465-1911291750",
+      "SegmentIds": [ 28, 136 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "Departure": "2019-11-29T09:45:00",
+      "Arrival": "2019-11-29T17:50:00",
+      "Duration": 545,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2251",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "466",
+          "CarrierId": 1384
+        }
+      ]
+    },
+    {
+      "Id": "10202-1911290945--31799-1-13554-1911291750",
+      "SegmentIds": [ 28, 168 ],
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "Departure": "2019-11-29T09:45:00",
+      "Arrival": "2019-11-29T17:50:00",
+      "Duration": 545,
+      "JourneyMode": "Flight",
+      "Stops": [ 18563 ],
+      "Carriers": [ 1384 ],
+      "OperatingCarriers": [ 1384 ],
+      "Directionality": "Inbound",
+      "FlightNumbers": [
+        {
+          "FlightNumber": "2251",
+          "CarrierId": 1384
+        },
+        {
+          "FlightNumber": "326",
+          "CarrierId": 1384
+        }
+      ]
+    }
+  ],
+  "Segments": [
+    {
+      "Id": 0,
+      "OriginStation": 10202,
+      "DestinationStation": 10141,
+      "DepartureDateTime": "2019-11-29T12:05:00",
+      "ArrivalDateTime": "2019-11-29T14:05:00",
+      "Carrier": 1710,
+      "OperatingCarrier": 1710,
+      "Duration": 120,
+      "FlightNumber": "2824",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 1,
+      "OriginStation": 10141,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T16:55:00",
+      "ArrivalDateTime": "2019-11-29T17:05:00",
+      "Carrier": 1710,
+      "OperatingCarrier": 1710,
+      "Duration": 70,
+      "FlightNumber": "2095",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 2,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T17:30:00",
+      "ArrivalDateTime": "2019-11-30T20:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "915",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 3,
+      "OriginStation": 11616,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T21:20:00",
+      "ArrivalDateTime": "2019-11-30T22:50:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 90,
+      "FlightNumber": "1342",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 4,
+      "OriginStation": 10202,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-29T12:50:00",
+      "ArrivalDateTime": "2019-11-29T15:05:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 135,
+      "FlightNumber": "1976",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 5,
+      "OriginStation": 9451,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T15:45:00",
+      "ArrivalDateTime": "2019-11-29T16:05:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 80,
+      "FlightNumber": "1021",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 6,
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T08:05:00",
+      "ArrivalDateTime": "2019-11-30T11:35:00",
+      "Carrier": 881,
+      "OperatingCarrier": 881,
+      "Duration": 150,
+      "FlightNumber": "868",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 7,
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T07:00:00",
+      "ArrivalDateTime": "2019-11-29T08:45:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 165,
+      "FlightNumber": "2201",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 8,
+      "OriginStation": 13554,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-30T19:50:00",
+      "ArrivalDateTime": "2019-11-30T22:10:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 80,
+      "FlightNumber": "1181",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 9,
+      "OriginStation": 10413,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T06:45:00",
+      "ArrivalDateTime": "2019-12-01T08:50:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 125,
+      "FlightNumber": "1394",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 10,
+      "OriginStation": 10202,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-29T12:30:00",
+      "ArrivalDateTime": "2019-11-29T14:15:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "1337",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 11,
+      "OriginStation": 11616,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T16:10:00",
+      "ArrivalDateTime": "2019-11-29T16:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 940,
+      "Duration": 90,
+      "FlightNumber": "934",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 12,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T16:30:00",
+      "ArrivalDateTime": "2019-11-30T19:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "911",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 13,
+      "OriginStation": 10202,
+      "DestinationStation": 17517,
+      "DepartureDateTime": "2019-11-29T18:40:00",
+      "ArrivalDateTime": "2019-11-29T19:30:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 50,
+      "FlightNumber": "722",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 14,
+      "OriginStation": 17517,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T20:15:00",
+      "ArrivalDateTime": "2019-11-29T21:40:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 145,
+      "FlightNumber": "457",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 15,
+      "OriginStation": 10202,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-29T14:00:00",
+      "ArrivalDateTime": "2019-11-29T15:15:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 75,
+      "FlightNumber": "542",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 16,
+      "OriginStation": 17648,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T16:30:00",
+      "ArrivalDateTime": "2019-11-29T18:10:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 160,
+      "FlightNumber": "289",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 17,
+      "OriginStation": 13554,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-30T06:30:00",
+      "ArrivalDateTime": "2019-11-30T10:00:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 150,
+      "FlightNumber": "286",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 18,
+      "OriginStation": 17648,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T10:35:00",
+      "ArrivalDateTime": "2019-11-30T12:00:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 85,
+      "FlightNumber": "535",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 19,
+      "OriginStation": 10202,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-29T14:45:00",
+      "ArrivalDateTime": "2019-11-29T16:30:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "1339",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 20,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T18:00:00",
+      "ArrivalDateTime": "2019-11-29T18:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "918",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 21,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T06:35:00",
+      "ArrivalDateTime": "2019-11-30T09:25:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2483",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 22,
+      "OriginStation": 14385,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T11:20:00",
+      "ArrivalDateTime": "2019-11-30T12:35:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 75,
+      "FlightNumber": "1676",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 23,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T15:00:00",
+      "ArrivalDateTime": "2019-11-29T15:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "910",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 24,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T11:30:00",
+      "ArrivalDateTime": "2019-11-30T14:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "905",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 25,
+      "OriginStation": 11616,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T15:50:00",
+      "ArrivalDateTime": "2019-11-30T17:20:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 90,
+      "FlightNumber": "1344",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 26,
+      "OriginStation": 13554,
+      "DestinationStation": 17517,
+      "DepartureDateTime": "2019-11-30T06:00:00",
+      "ArrivalDateTime": "2019-11-30T09:20:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 140,
+      "FlightNumber": "458",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 27,
+      "OriginStation": 17517,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T09:55:00",
+      "ArrivalDateTime": "2019-11-30T10:45:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 50,
+      "FlightNumber": "713",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 28,
+      "OriginStation": 10202,
+      "DestinationStation": 18563,
+      "DepartureDateTime": "2019-11-29T09:45:00",
+      "ArrivalDateTime": "2019-11-29T11:30:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 105,
+      "FlightNumber": "2251",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 29,
+      "OriginStation": 18563,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T12:10:00",
+      "ArrivalDateTime": "2019-11-29T12:50:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 124,
+      "Duration": 100,
+      "FlightNumber": "456",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 30,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T17:50:00",
+      "ArrivalDateTime": "2019-11-30T20:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2479",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 31,
+      "OriginStation": 14385,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T22:10:00",
+      "ArrivalDateTime": "2019-11-30T23:25:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 75,
+      "FlightNumber": "1682",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 32,
+      "OriginStation": 10202,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-29T09:45:00",
+      "ArrivalDateTime": "2019-11-29T12:10:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 145,
+      "FlightNumber": "1395",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 33,
+      "OriginStation": 10413,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T13:20:00",
+      "ArrivalDateTime": "2019-11-29T13:45:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 85,
+      "FlightNumber": "1780",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 34,
+      "OriginStation": 10202,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-29T17:05:00",
+      "ArrivalDateTime": "2019-11-29T19:15:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 130,
+      "FlightNumber": "1978",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 35,
+      "OriginStation": 9451,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T20:30:00",
+      "ArrivalDateTime": "2019-11-29T20:50:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 80,
+      "FlightNumber": "1033",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 36,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T08:40:00",
+      "ArrivalDateTime": "2019-11-30T11:05:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 85,
+      "FlightNumber": "1002",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 37,
+      "OriginStation": 9451,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T14:15:00",
+      "ArrivalDateTime": "2019-11-30T16:15:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 120,
+      "FlightNumber": "1977",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 38,
+      "OriginStation": 13554,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T18:25:00",
+      "ArrivalDateTime": "2019-11-30T21:55:00",
+      "Carrier": 881,
+      "OperatingCarrier": 881,
+      "Duration": 150,
+      "FlightNumber": "870",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 39,
+      "OriginStation": 10202,
+      "DestinationStation": 12126,
+      "DepartureDateTime": "2019-11-29T11:35:00",
+      "ArrivalDateTime": "2019-11-29T14:55:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 140,
+      "FlightNumber": "1252",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 40,
+      "OriginStation": 12126,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T16:00:00",
+      "ArrivalDateTime": "2019-11-29T17:00:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 180,
+      "FlightNumber": "1337",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 41,
+      "OriginStation": 13554,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-30T17:35:00",
+      "ArrivalDateTime": "2019-11-30T19:55:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 80,
+      "FlightNumber": "1281",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 42,
+      "OriginStation": 10413,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T21:00:00",
+      "ArrivalDateTime": "2019-11-30T23:10:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 130,
+      "FlightNumber": "1694",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 43,
+      "OriginStation": 9451,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T17:15:00",
+      "ArrivalDateTime": "2019-11-29T17:20:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 65,
+      "FlightNumber": "993",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 44,
+      "OriginStation": 13554,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-30T15:25:00",
+      "ArrivalDateTime": "2019-11-30T17:45:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 80,
+      "FlightNumber": "1781",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 45,
+      "OriginStation": 10202,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-29T10:40:00",
+      "ArrivalDateTime": "2019-11-29T12:25:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "1335",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 46,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T14:00:00",
+      "ArrivalDateTime": "2019-11-29T14:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "908",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 47,
+      "OriginStation": 10202,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-29T13:20:00",
+      "ArrivalDateTime": "2019-11-29T14:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 80,
+      "FlightNumber": "1677",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 48,
+      "OriginStation": 14385,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T16:00:00",
+      "ArrivalDateTime": "2019-11-29T17:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 125,
+      "FlightNumber": "2478",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 49,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T08:30:00",
+      "ArrivalDateTime": "2019-11-30T11:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "925",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 50,
+      "OriginStation": 11616,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T12:20:00",
+      "ArrivalDateTime": "2019-11-30T13:50:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 90,
+      "FlightNumber": "1338",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 51,
+      "OriginStation": 10202,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-29T06:00:00",
+      "ArrivalDateTime": "2019-11-29T08:30:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 150,
+      "FlightNumber": "1695",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 52,
+      "OriginStation": 10413,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T10:00:00",
+      "ArrivalDateTime": "2019-11-29T10:30:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 90,
+      "FlightNumber": "1580",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 53,
+      "OriginStation": 13554,
+      "DestinationStation": 18563,
+      "DepartureDateTime": "2019-11-30T08:50:00",
+      "ArrivalDateTime": "2019-11-30T11:40:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 110,
+      "FlightNumber": "317",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 54,
+      "OriginStation": 18563,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T12:25:00",
+      "ArrivalDateTime": "2019-11-30T14:00:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 124,
+      "Duration": 95,
+      "FlightNumber": "2254",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 55,
+      "OriginStation": 13554,
+      "DestinationStation": 12126,
+      "DepartureDateTime": "2019-11-30T19:25:00",
+      "ArrivalDateTime": "2019-12-01T00:20:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 175,
+      "FlightNumber": "1342",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 56,
+      "OriginStation": 12126,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T09:30:00",
+      "ArrivalDateTime": "2019-12-01T10:50:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 140,
+      "FlightNumber": "1251",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 57,
+      "OriginStation": 10202,
+      "DestinationStation": 15116,
+      "DepartureDateTime": "2019-11-29T08:55:00",
+      "ArrivalDateTime": "2019-11-29T11:10:00",
+      "Carrier": 1663,
+      "OperatingCarrier": 1663,
+      "Duration": 75,
+      "FlightNumber": "232",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 58,
+      "OriginStation": 15116,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T12:20:00",
+      "ArrivalDateTime": "2019-11-29T14:05:00",
+      "Carrier": 1663,
+      "OperatingCarrier": 1663,
+      "Duration": 225,
+      "FlightNumber": "391",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 59,
+      "OriginStation": 13554,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-30T10:25:00",
+      "ArrivalDateTime": "2019-11-30T13:55:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 150,
+      "FlightNumber": "282",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 60,
+      "OriginStation": 17648,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T15:20:00",
+      "ArrivalDateTime": "2019-11-30T16:45:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 85,
+      "FlightNumber": "537",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 61,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T06:30:00",
+      "ArrivalDateTime": "2019-11-30T09:00:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 90,
+      "FlightNumber": "1000",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 62,
+      "OriginStation": 9451,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T10:05:00",
+      "ArrivalDateTime": "2019-11-30T12:05:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 120,
+      "FlightNumber": "1975",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 63,
+      "OriginStation": 10202,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T17:15:00",
+      "ArrivalDateTime": "2019-11-29T19:00:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 165,
+      "FlightNumber": "2203",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 64,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T17:50:00",
+      "ArrivalDateTime": "2019-11-30T20:10:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 80,
+      "FlightNumber": "1030",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 65,
+      "OriginStation": 9451,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T21:05:00",
+      "ArrivalDateTime": "2019-11-30T23:05:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 120,
+      "FlightNumber": "1981",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 66,
+      "OriginStation": 13554,
+      "DestinationStation": 9592,
+      "DepartureDateTime": "2019-11-30T22:15:00",
+      "ArrivalDateTime": "2019-12-01T03:50:00",
+      "Carrier": 819,
+      "OperatingCarrier": 819,
+      "Duration": 215,
+      "FlightNumber": "609",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 67,
+      "OriginStation": 9592,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T08:30:00",
+      "ArrivalDateTime": "2019-12-01T09:30:00",
+      "Carrier": 819,
+      "OperatingCarrier": 819,
+      "Duration": 120,
+      "FlightNumber": "876",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 68,
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T07:10:00",
+      "ArrivalDateTime": "2019-11-29T09:05:00",
+      "Carrier": 881,
+      "OperatingCarrier": 881,
+      "Duration": 175,
+      "FlightNumber": "865",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 69,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T07:40:00",
+      "ArrivalDateTime": "2019-11-30T10:30:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2485",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 70,
+      "OriginStation": 10202,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-29T16:55:00",
+      "ArrivalDateTime": "2019-11-29T18:15:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 80,
+      "FlightNumber": "1679",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 71,
+      "OriginStation": 14385,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T19:50:00",
+      "ArrivalDateTime": "2019-11-29T20:55:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 125,
+      "FlightNumber": "2482",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 72,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T11:10:00",
+      "ArrivalDateTime": "2019-11-30T14:00:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2473",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 73,
+      "OriginStation": 14385,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T14:55:00",
+      "ArrivalDateTime": "2019-11-30T16:10:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 75,
+      "FlightNumber": "1678",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 74,
+      "OriginStation": 10202,
+      "DestinationStation": 11493,
+      "DepartureDateTime": "2019-11-29T11:40:00",
+      "ArrivalDateTime": "2019-11-29T13:25:00",
+      "Carrier": 858,
+      "OperatingCarrier": 858,
+      "Duration": 105,
+      "FlightNumber": "479",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 75,
+      "OriginStation": 11493,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T17:20:00",
+      "ArrivalDateTime": "2019-11-29T19:10:00",
+      "Carrier": 858,
+      "OperatingCarrier": 858,
+      "Duration": 170,
+      "FlightNumber": "208",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 76,
+      "OriginStation": 10202,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-29T09:20:00",
+      "ArrivalDateTime": "2019-11-29T10:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 940,
+      "Duration": 80,
+      "FlightNumber": "1675",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 77,
+      "OriginStation": 14385,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T11:55:00",
+      "ArrivalDateTime": "2019-11-29T13:00:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 125,
+      "FlightNumber": "2474",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 78,
+      "OriginStation": 9451,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T20:10:00",
+      "ArrivalDateTime": "2019-11-29T20:15:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 65,
+      "FlightNumber": "979",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 79,
+      "OriginStation": 10202,
+      "DestinationStation": 10141,
+      "DepartureDateTime": "2019-11-29T06:20:00",
+      "ArrivalDateTime": "2019-11-29T08:25:00",
+      "Carrier": 1710,
+      "OperatingCarrier": 1710,
+      "Duration": 125,
+      "FlightNumber": "2830",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 80,
+      "OriginStation": 10141,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T09:40:00",
+      "ArrivalDateTime": "2019-11-29T10:05:00",
+      "Carrier": 1710,
+      "OperatingCarrier": 1710,
+      "Duration": 85,
+      "FlightNumber": "2093",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 81,
+      "OriginStation": 10202,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-29T18:55:00",
+      "ArrivalDateTime": "2019-11-29T20:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "1341",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 82,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T21:30:00",
+      "ArrivalDateTime": "2019-11-29T22:15:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "922",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 83,
+      "OriginStation": 10202,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-29T18:15:00",
+      "ArrivalDateTime": "2019-11-29T20:00:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "1345",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 84,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T16:45:00",
+      "ArrivalDateTime": "2019-11-30T19:35:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2477",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 85,
+      "OriginStation": 10202,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-29T06:30:00",
+      "ArrivalDateTime": "2019-11-29T08:45:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 135,
+      "FlightNumber": "1972",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 86,
+      "OriginStation": 9451,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T10:20:00",
+      "ArrivalDateTime": "2019-11-29T10:45:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 85,
+      "FlightNumber": "1009",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 87,
+      "OriginStation": 10202,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-29T06:15:00",
+      "ArrivalDateTime": "2019-11-29T08:00:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "1343",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 88,
+      "OriginStation": 11616,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T09:00:00",
+      "ArrivalDateTime": "2019-11-29T09:30:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 940,
+      "Duration": 90,
+      "FlightNumber": "928",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 89,
+      "OriginStation": 10202,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-29T16:25:00",
+      "ArrivalDateTime": "2019-11-29T18:50:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 145,
+      "FlightNumber": "1295",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 90,
+      "OriginStation": 10413,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T21:20:00",
+      "ArrivalDateTime": "2019-11-29T21:45:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 85,
+      "FlightNumber": "1380",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 91,
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T17:45:00",
+      "ArrivalDateTime": "2019-11-29T19:30:00",
+      "Carrier": 881,
+      "OperatingCarrier": 881,
+      "Duration": 165,
+      "FlightNumber": "867",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 92,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T14:05:00",
+      "ArrivalDateTime": "2019-11-30T16:20:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 75,
+      "FlightNumber": "1012",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 93,
+      "OriginStation": 13554,
+      "DestinationStation": 16626,
+      "DepartureDateTime": "2019-11-30T22:30:00",
+      "ArrivalDateTime": "2019-12-01T05:15:00",
+      "Carrier": 1717,
+      "OperatingCarrier": 1717,
+      "Duration": 225,
+      "FlightNumber": "2575",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 94,
+      "OriginStation": 16626,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T08:45:00",
+      "ArrivalDateTime": "2019-12-01T09:35:00",
+      "Carrier": 1717,
+      "OperatingCarrier": 1717,
+      "Duration": 170,
+      "FlightNumber": "2032",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 95,
+      "OriginStation": 10202,
+      "DestinationStation": 10141,
+      "DepartureDateTime": "2019-11-29T17:35:00",
+      "ArrivalDateTime": "2019-11-29T19:40:00",
+      "Carrier": 1710,
+      "OperatingCarrier": 1710,
+      "Duration": 125,
+      "FlightNumber": "2826",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 96,
+      "OriginStation": 10141,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T21:10:00",
+      "ArrivalDateTime": "2019-11-29T21:20:00",
+      "Carrier": 1710,
+      "OperatingCarrier": 1710,
+      "Duration": 70,
+      "FlightNumber": "2103",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 97,
+      "OriginStation": 10202,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-29T12:35:00",
+      "ArrivalDateTime": "2019-11-29T13:55:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 80,
+      "FlightNumber": "536",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 98,
+      "OriginStation": 17648,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T15:30:00",
+      "ArrivalDateTime": "2019-11-29T17:20:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 170,
+      "FlightNumber": "279",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 99,
+      "OriginStation": 13465,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T09:15:00",
+      "ArrivalDateTime": "2019-11-30T12:45:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 150,
+      "FlightNumber": "2202",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 100,
+      "OriginStation": 13465,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T08:40:00",
+      "ArrivalDateTime": "2019-11-30T11:00:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 80,
+      "FlightNumber": "986",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 101,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T11:15:00",
+      "ArrivalDateTime": "2019-11-30T13:30:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 75,
+      "FlightNumber": "1024",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 102,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T09:00:00",
+      "ArrivalDateTime": "2019-11-29T09:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "902",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 103,
+      "OriginStation": 13465,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T10:00:00",
+      "ArrivalDateTime": "2019-11-30T12:10:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 70,
+      "FlightNumber": "988",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 104,
+      "OriginStation": 13465,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-30T08:00:00",
+      "ArrivalDateTime": "2019-11-30T11:25:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 145,
+      "FlightNumber": "288",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 105,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T16:25:00",
+      "ArrivalDateTime": "2019-11-30T18:40:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 75,
+      "FlightNumber": "1018",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 106,
+      "OriginStation": 10202,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T12:25:00",
+      "ArrivalDateTime": "2019-11-29T14:10:00",
+      "Carrier": 881,
+      "OperatingCarrier": 881,
+      "Duration": 165,
+      "FlightNumber": "869",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 107,
+      "OriginStation": 13554,
+      "DestinationStation": 12126,
+      "DepartureDateTime": "2019-11-30T10:20:00",
+      "ArrivalDateTime": "2019-11-30T15:15:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 175,
+      "FlightNumber": "1332",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 108,
+      "OriginStation": 12126,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T17:05:00",
+      "ArrivalDateTime": "2019-11-30T18:30:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 145,
+      "FlightNumber": "1255",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 109,
+      "OriginStation": 10202,
+      "DestinationStation": 13577,
+      "DepartureDateTime": "2019-11-29T05:45:00",
+      "ArrivalDateTime": "2019-11-29T08:30:00",
+      "Carrier": 1760,
+      "OperatingCarrier": 1760,
+      "Duration": 225,
+      "FlightNumber": "1251",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 110,
+      "OriginStation": 13577,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T09:45:00",
+      "ArrivalDateTime": "2019-11-29T12:40:00",
+      "Carrier": 1760,
+      "OperatingCarrier": 1760,
+      "Duration": 175,
+      "FlightNumber": "1352",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 111,
+      "OriginStation": 13542,
+      "DestinationStation": 12911,
+      "DepartureDateTime": "2019-11-30T23:00:00",
+      "ArrivalDateTime": "2019-12-01T04:20:00",
+      "Carrier": 1571,
+      "OperatingCarrier": 1571,
+      "Duration": 200,
+      "FlightNumber": "114",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 112,
+      "OriginStation": 12911,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T09:25:00",
+      "ArrivalDateTime": "2019-12-01T10:10:00",
+      "Carrier": 1571,
+      "OperatingCarrier": 1571,
+      "Duration": 105,
+      "FlightNumber": "813",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 113,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T20:00:00",
+      "ArrivalDateTime": "2019-11-29T20:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "920",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 114,
+      "OriginStation": 10202,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-29T17:20:00",
+      "ArrivalDateTime": "2019-11-29T18:40:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 80,
+      "FlightNumber": "538",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 115,
+      "OriginStation": 17648,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T20:05:00",
+      "ArrivalDateTime": "2019-11-29T21:50:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 165,
+      "FlightNumber": "285",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 116,
+      "OriginStation": 13554,
+      "DestinationStation": 17648,
+      "DepartureDateTime": "2019-11-30T18:15:00",
+      "ArrivalDateTime": "2019-11-30T21:55:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 160,
+      "FlightNumber": "280",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 117,
+      "OriginStation": 17648,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T10:35:00",
+      "ArrivalDateTime": "2019-12-01T12:00:00",
+      "Carrier": 1375,
+      "OperatingCarrier": 1375,
+      "Duration": 85,
+      "FlightNumber": "535",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 118,
+      "OriginStation": 13542,
+      "DestinationStation": 11089,
+      "DepartureDateTime": "2019-11-30T14:10:00",
+      "ArrivalDateTime": "2019-11-30T23:50:00",
+      "Carrier": 1618,
+      "OperatingCarrier": 1618,
+      "Duration": 400,
+      "FlightNumber": "328",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 119,
+      "OriginStation": 11089,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T01:50:00",
+      "ArrivalDateTime": "2019-12-01T05:40:00",
+      "Carrier": 1618,
+      "OperatingCarrier": 1618,
+      "Duration": 350,
+      "FlightNumber": "201",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 120,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T15:45:00",
+      "ArrivalDateTime": "2019-11-30T17:55:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 70,
+      "FlightNumber": "1032",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 121,
+      "OriginStation": 10202,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-29T06:05:00",
+      "ArrivalDateTime": "2019-11-29T07:25:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 80,
+      "FlightNumber": "1683",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 122,
+      "OriginStation": 14385,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T09:20:00",
+      "ArrivalDateTime": "2019-11-29T10:25:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 125,
+      "FlightNumber": "2472",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 123,
+      "OriginStation": 13554,
+      "DestinationStation": 10413,
+      "DepartureDateTime": "2019-11-30T11:30:00",
+      "ArrivalDateTime": "2019-11-30T13:50:00",
+      "Carrier": 838,
+      "OperatingCarrier": 838,
+      "Duration": 80,
+      "FlightNumber": "1581",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 124,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T10:30:00",
+      "ArrivalDateTime": "2019-11-30T13:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "903",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 125,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T10:00:00",
+      "ArrivalDateTime": "2019-11-29T10:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "904",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 126,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T08:45:00",
+      "ArrivalDateTime": "2019-11-30T11:35:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2471",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 127,
+      "OriginStation": 13554,
+      "DestinationStation": 17517,
+      "DepartureDateTime": "2019-11-30T09:05:00",
+      "ArrivalDateTime": "2019-11-30T12:20:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 135,
+      "FlightNumber": "452",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 128,
+      "OriginStation": 17517,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T17:20:00",
+      "ArrivalDateTime": "2019-11-30T18:05:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 45,
+      "FlightNumber": "721",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 129,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T06:30:00",
+      "ArrivalDateTime": "2019-11-30T09:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "921",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 130,
+      "OriginStation": 11616,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-11-30T10:15:00",
+      "ArrivalDateTime": "2019-11-30T11:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 90,
+      "FlightNumber": "1336",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 131,
+      "OriginStation": 11616,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T17:10:00",
+      "ArrivalDateTime": "2019-11-29T17:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 940,
+      "Duration": 90,
+      "FlightNumber": "936",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 132,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T09:30:00",
+      "ArrivalDateTime": "2019-11-30T12:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "901",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 133,
+      "OriginStation": 10202,
+      "DestinationStation": 16626,
+      "DepartureDateTime": "2019-11-29T23:30:00",
+      "ArrivalDateTime": "2019-11-30T04:00:00",
+      "Carrier": 1717,
+      "OperatingCarrier": 1717,
+      "Duration": 150,
+      "FlightNumber": "2469",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 134,
+      "OriginStation": 16626,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-30T08:10:00",
+      "ArrivalDateTime": "2019-11-30T09:30:00",
+      "Carrier": 1717,
+      "OperatingCarrier": 1717,
+      "Duration": 260,
+      "FlightNumber": "2580",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 135,
+      "OriginStation": 10202,
+      "DestinationStation": 18563,
+      "DepartureDateTime": "2019-11-29T14:45:00",
+      "ArrivalDateTime": "2019-11-29T16:30:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 124,
+      "Duration": 105,
+      "FlightNumber": "2255",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 136,
+      "OriginStation": 18563,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-29T17:10:00",
+      "ArrivalDateTime": "2019-11-29T17:50:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 100,
+      "FlightNumber": "466",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 137,
+      "OriginStation": 13554,
+      "DestinationStation": 12126,
+      "DepartureDateTime": "2019-11-30T18:10:00",
+      "ArrivalDateTime": "2019-11-30T23:00:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 170,
+      "FlightNumber": "1338",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 138,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T15:30:00",
+      "ArrivalDateTime": "2019-11-30T18:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "909",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 139,
+      "OriginStation": 11616,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T16:00:00",
+      "ArrivalDateTime": "2019-11-29T16:45:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 105,
+      "FlightNumber": "914",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 140,
+      "OriginStation": 13554,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-30T13:50:00",
+      "ArrivalDateTime": "2019-11-30T16:40:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 110,
+      "FlightNumber": "2475",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 141,
+      "OriginStation": 14385,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T19:00:00",
+      "ArrivalDateTime": "2019-11-30T20:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 65,
+      "FlightNumber": "119",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 142,
+      "OriginStation": 13554,
+      "DestinationStation": 12126,
+      "DepartureDateTime": "2019-11-30T07:30:00",
+      "ArrivalDateTime": "2019-11-30T12:25:00",
+      "Carrier": 857,
+      "OperatingCarrier": 857,
+      "Duration": 175,
+      "FlightNumber": "1340",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 143,
+      "OriginStation": 10202,
+      "DestinationStation": 18563,
+      "DepartureDateTime": "2019-11-29T20:00:00",
+      "ArrivalDateTime": "2019-11-29T21:35:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 95,
+      "FlightNumber": "2259",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 144,
+      "OriginStation": 18563,
+      "DestinationStation": 13465,
+      "DepartureDateTime": "2019-11-30T08:45:00",
+      "ArrivalDateTime": "2019-11-30T09:30:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 124,
+      "Duration": 105,
+      "FlightNumber": "460",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 145,
+      "OriginStation": 10202,
+      "DestinationStation": 17517,
+      "DepartureDateTime": "2019-11-29T11:20:00",
+      "ArrivalDateTime": "2019-11-29T12:10:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 50,
+      "FlightNumber": "714",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 146,
+      "OriginStation": 17517,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T17:15:00",
+      "ArrivalDateTime": "2019-11-29T18:40:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 145,
+      "FlightNumber": "455",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 147,
+      "OriginStation": 13554,
+      "DestinationStation": 17517,
+      "DepartureDateTime": "2019-11-30T19:35:00",
+      "ArrivalDateTime": "2019-11-30T22:50:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 135,
+      "FlightNumber": "456",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 148,
+      "OriginStation": 17517,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T09:55:00",
+      "ArrivalDateTime": "2019-12-01T10:45:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 50,
+      "FlightNumber": "713",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 149,
+      "OriginStation": 13554,
+      "DestinationStation": 11493,
+      "DepartureDateTime": "2019-11-30T18:50:00",
+      "ArrivalDateTime": "2019-11-30T22:20:00",
+      "Carrier": 858,
+      "OperatingCarrier": 858,
+      "Duration": 150,
+      "FlightNumber": "209",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 150,
+      "OriginStation": 11493,
+      "DestinationStation": 10202,
+      "DepartureDateTime": "2019-12-01T09:05:00",
+      "ArrivalDateTime": "2019-12-01T10:50:00",
+      "Carrier": 858,
+      "OperatingCarrier": 858,
+      "Duration": 105,
+      "FlightNumber": "478",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 151,
+      "OriginStation": 10202,
+      "DestinationStation": 12911,
+      "DepartureDateTime": "2019-11-29T11:00:00",
+      "ArrivalDateTime": "2019-11-29T13:40:00",
+      "Carrier": 1571,
+      "OperatingCarrier": 1571,
+      "Duration": 100,
+      "FlightNumber": "814",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 152,
+      "OriginStation": 12911,
+      "DestinationStation": 13542,
+      "DepartureDateTime": "2019-11-30T09:50:00",
+      "ArrivalDateTime": "2019-11-30T11:25:00",
+      "Carrier": 1571,
+      "OperatingCarrier": 1571,
+      "Duration": 215,
+      "FlightNumber": "111",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 153,
+      "OriginStation": 13554,
+      "DestinationStation": 9451,
+      "DepartureDateTime": "2019-11-30T17:05:00",
+      "ArrivalDateTime": "2019-11-30T19:25:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1889,
+      "Duration": 80,
+      "FlightNumber": "1022",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 154,
+      "OriginStation": 18563,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T15:25:00",
+      "ArrivalDateTime": "2019-11-29T16:15:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 110,
+      "FlightNumber": "324",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 155,
+      "OriginStation": 13554,
+      "DestinationStation": 11616,
+      "DepartureDateTime": "2019-11-30T07:30:00",
+      "ArrivalDateTime": "2019-11-30T10:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 95,
+      "FlightNumber": "923",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 156,
+      "OriginStation": 9451,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T16:40:00",
+      "ArrivalDateTime": "2019-11-29T17:00:00",
+      "Carrier": 1324,
+      "OperatingCarrier": 1324,
+      "Duration": 80,
+      "FlightNumber": "1023",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 157,
+      "OriginStation": 13577,
+      "DestinationStation": 15055,
+      "DepartureDateTime": "2019-11-29T14:00:00",
+      "ArrivalDateTime": "2019-11-29T15:00:00",
+      "Carrier": 1760,
+      "OperatingCarrier": 1465,
+      "Duration": 60,
+      "FlightNumber": "1948",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 158,
+      "OriginStation": 15055,
+      "DestinationStation": 13542,
+      "DepartureDateTime": "2019-11-29T17:45:00",
+      "ArrivalDateTime": "2019-11-29T20:00:00",
+      "Carrier": 1760,
+      "OperatingCarrier": 1760,
+      "Duration": 135,
+      "FlightNumber": "1332",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 159,
+      "OriginStation": 13554,
+      "DestinationStation": 17517,
+      "DepartureDateTime": "2019-11-30T14:35:00",
+      "ArrivalDateTime": "2019-11-30T17:55:00",
+      "Carrier": 1523,
+      "OperatingCarrier": 1523,
+      "Duration": 140,
+      "FlightNumber": "462",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 160,
+      "OriginStation": 10202,
+      "DestinationStation": 14385,
+      "DepartureDateTime": "2019-11-29T21:00:00",
+      "ArrivalDateTime": "2019-11-29T22:20:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 80,
+      "FlightNumber": "1681",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 161,
+      "OriginStation": 14385,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-30T07:00:00",
+      "ArrivalDateTime": "2019-11-30T08:05:00",
+      "Carrier": 1368,
+      "OperatingCarrier": 1368,
+      "Duration": 125,
+      "FlightNumber": "2470",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 162,
+      "OriginStation": 13542,
+      "DestinationStation": 12911,
+      "DepartureDateTime": "2019-11-30T12:20:00",
+      "ArrivalDateTime": "2019-11-30T17:40:00",
+      "Carrier": 1571,
+      "OperatingCarrier": 1571,
+      "Duration": 200,
+      "FlightNumber": "112",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 163,
+      "OriginStation": 13554,
+      "DestinationStation": 11493,
+      "DepartureDateTime": "2019-11-30T16:55:00",
+      "ArrivalDateTime": "2019-11-30T20:35:00",
+      "Carrier": 858,
+      "OperatingCarrier": 858,
+      "Duration": 160,
+      "FlightNumber": "207",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 164,
+      "OriginStation": 13554,
+      "DestinationStation": 18563,
+      "DepartureDateTime": "2019-11-30T06:00:00",
+      "ArrivalDateTime": "2019-11-30T08:40:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 100,
+      "FlightNumber": "345",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 165,
+      "OriginStation": 18563,
+      "DestinationStation": 12015,
+      "DepartureDateTime": "2019-11-29T13:05:00",
+      "ArrivalDateTime": "2019-11-29T14:00:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 55,
+      "FlightNumber": "2806",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 166,
+      "OriginStation": 12015,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T15:55:00",
+      "ArrivalDateTime": "2019-11-29T16:40:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 105,
+      "FlightNumber": "348",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    },
+    {
+      "Id": 167,
+      "OriginStation": 13554,
+      "DestinationStation": 12126,
+      "DepartureDateTime": "2019-11-30T07:55:00",
+      "ArrivalDateTime": "2019-11-30T13:00:00",
+      "Carrier": 857,
+      "OperatingCarrier": 881,
+      "Duration": 185,
+      "FlightNumber": "5904",
+      "JourneyMode": "Flight",
+      "Directionality": "Inbound"
+    },
+    {
+      "Id": 168,
+      "OriginStation": 18563,
+      "DestinationStation": 13554,
+      "DepartureDateTime": "2019-11-29T17:00:00",
+      "ArrivalDateTime": "2019-11-29T17:50:00",
+      "Carrier": 1384,
+      "OperatingCarrier": 1384,
+      "Duration": 110,
+      "FlightNumber": "326",
+      "JourneyMode": "Flight",
+      "Directionality": "Outbound"
+    }
+  ],
+  "Carriers": [
+    {
+      "Id": 1710,
+      "Code": "SN",
+      "Name": "Brussels Airlines",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/SN.png",
+      "DisplayCode": "SN"
+    },
+    {
+      "Id": 1368,
+      "Code": "LH",
+      "Name": "Lufthansa",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/LH.png",
+      "DisplayCode": "LH"
+    },
+    {
+      "Id": 1324,
+      "Code": "KL",
+      "Name": "KLM",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/KL.png",
+      "DisplayCode": "KL"
+    },
+    {
+      "Id": 1889,
+      "Code": "WA",
+      "Name": "KLM Cityhopper",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/WA.png",
+      "DisplayCode": "WA"
+    },
+    {
+      "Id": 881,
+      "Code": "BA",
+      "Name": "British Airways",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/BA.png",
+      "DisplayCode": "BA"
+    },
+    {
+      "Id": 1375,
+      "Code": "LO",
+      "Name": "LOT",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/LO.png",
+      "DisplayCode": "LO"
+    },
+    {
+      "Id": 838,
+      "Code": "AF",
+      "Name": "Air France",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/AF.png",
+      "DisplayCode": "AF"
+    },
+    {
+      "Id": 940,
+      "Code": "CL",
+      "Name": "Lufthansa CityLine",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/CL.png",
+      "DisplayCode": "CL"
+    },
+    {
+      "Id": 1523,
+      "Code": "OS",
+      "Name": "Austrian Airlines",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/OS.png",
+      "DisplayCode": "OS"
+    },
+    {
+      "Id": 1384,
+      "Code": "LX",
+      "Name": "SWISS",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/LX.png",
+      "DisplayCode": "LX"
+    },
+    {
+      "Id": 124,
+      "Code": "2L",
+      "Name": "helvetic",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/2L.png",
+      "DisplayCode": "2L"
+    },
+    {
+      "Id": 857,
+      "Code": "AY",
+      "Name": "Finnair",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/AY.png",
+      "DisplayCode": "AY"
+    },
+    {
+      "Id": 1663,
+      "Code": "RO",
+      "Name": "TAROM",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/RO.png",
+      "DisplayCode": "RO"
+    },
+    {
+      "Id": 819,
+      "Code": "A3",
+      "Name": "Aegean Airlines",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/A3.png",
+      "DisplayCode": "A3"
+    },
+    {
+      "Id": 858,
+      "Code": "AZ",
+      "Name": "Alitalia",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/AZ.png",
+      "DisplayCode": "AZ"
+    },
+    {
+      "Id": 1717,
+      "Code": "SU",
+      "Name": "Aeroflot",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/SU.png",
+      "DisplayCode": "SU"
+    },
+    {
+      "Id": 1760,
+      "Code": "TP",
+      "Name": "TAP Air Portugal",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/TP.png",
+      "DisplayCode": "TP"
+    },
+    {
+      "Id": 1571,
+      "Code": "PS",
+      "Name": "Ukraine International",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/PS.png",
+      "DisplayCode": "PS"
+    },
+    {
+      "Id": 1618,
+      "Code": "QR",
+      "Name": "Qatar Airways",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/QR.png",
+      "DisplayCode": "QR"
+    },
+    {
+      "Id": 1465,
+      "Code": "NI",
+      "Name": "Portugalia Airlines",
+      "ImageUrl": "https://s1.apideeplink.com/images/airlines/NI.png",
+      "DisplayCode": "NI"
+    }
+  ],
+  "Agents": [
+    {
+      "Id": 3934928,
+      "Name": "Kiwi.com",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/skyp.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "TravelAgent"
+    },
+    {
+      "Id": 3690180,
+      "Name": "Qantas",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/qant.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 2032127,
+      "Name": "British Airways",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/ba__.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 1963108,
+      "Name": "Mytrip",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/at24.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "TravelAgent"
+    },
+    {
+      "Id": 3051889,
+      "Name": "KLM",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/klm1.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 2031204,
+      "Name": "airBaltic",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/balt.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 3169745,
+      "Name": "LOT",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/lota.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 4022063,
+      "Name": "TAP Air Portugal",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/tap_.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 1967009,
+      "Name": "Austrian Airlines",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/ausa.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 3961811,
+      "Name": "SWISS",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/swis.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 1939318,
+      "Name": "Air France",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/airf.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 3182916,
+      "Name": "Lufthansa",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/luft.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 2044837,
+      "Name": "BudgetAir",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/bghu.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "TravelAgent"
+    },
+    {
+      "Id": 2807314,
+      "Name": "Iberia",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/iber.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 2492094,
+      "Name": "Finnair",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/finn.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 2627446,
+      "Name": "GotoGate",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/gtbf.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": false,
+      "Type": "TravelAgent"
+    },
+    {
+      "Id": 4155761,
+      "Name": "Ukraine International",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/ukra.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    },
+    {
+      "Id": 2499060,
+      "Name": "Aeroflot",
+      "ImageUrl": "https://s1.apideeplink.com/images/websites/flot.png",
+      "Status": "UpdatesComplete",
+      "OptimisedForMobile": true,
+      "Type": "Airline"
+    }
+  ],
+  "Places": [
+    {
+      "Id": 4609,
+      "ParentId": 202,
+      "Code": "LIS",
+      "Type": "City",
+      "Name": "Lisszabon"
+    },
+    {
+      "Id": 18563,
+      "ParentId": 9168,
+      "Code": "ZRH",
+      "Type": "Airport",
+      "Name": "Zürich"
+    },
+    {
+      "Id": 13577,
+      "ParentId": 4609,
+      "Code": "LIS",
+      "Type": "Airport",
+      "Name": "Lisszabon"
+    },
+    {
+      "Id": 650,
+      "ParentId": 233,
+      "Code": "ATH",
+      "Type": "City",
+      "Name": "Athén"
+    },
+    {
+      "Id": 15116,
+      "ParentId": 1234,
+      "Code": "OTP",
+      "Type": "Airport",
+      "Name": "Bukarest Henri Coandă Intl"
+    },
+    {
+      "Id": 4110,
+      "ParentId": 243,
+      "Code": "IEV",
+      "Type": "City",
+      "Name": "Kijev"
+    },
+    {
+      "Id": 8336,
+      "ParentId": 194,
+      "Code": "WAW",
+      "Type": "City",
+      "Name": "Varsó"
+    },
+    {
+      "Id": 2835,
+      "ParentId": 242,
+      "Code": "GVA",
+      "Type": "City",
+      "Name": "Genf"
+    },
+    {
+      "Id": 13465,
+      "ParentId": 4698,
+      "Code": "LCY",
+      "Type": "Airport",
+      "Name": "London City"
+    },
+    {
+      "Id": 1178,
+      "ParentId": 240,
+      "Code": "BRU",
+      "Type": "City",
+      "Name": "Brüsszel"
+    },
+    {
+      "Id": 10141,
+      "ParentId": 1178,
+      "Code": "BRU",
+      "Type": "Airport",
+      "Name": "Brüsszel National"
+    },
+    {
+      "Id": 8222,
+      "ParentId": 199,
+      "Code": "VIE",
+      "Type": "City",
+      "Name": "Bécs"
+    },
+    {
+      "Id": 2214,
+      "ParentId": 41,
+      "Code": "DOH",
+      "Type": "City",
+      "Name": "Doha"
+    },
+    {
+      "Id": 41,
+      "Code": "QA",
+      "Type": "Country",
+      "Name": "Katar"
+    },
+    {
+      "Id": 10413,
+      "ParentId": 6073,
+      "Code": "CDG",
+      "Type": "Airport",
+      "Name": "Párizs Charles de Gaulle"
+    },
+    {
+      "Id": 14385,
+      "ParentId": 5363,
+      "Code": "MUC",
+      "Type": "Airport",
+      "Name": "München"
+    },
+    {
+      "Id": 6073,
+      "ParentId": 244,
+      "Code": "PAR",
+      "Type": "City",
+      "Name": "Párizs"
+    },
+    {
+      "Id": 191,
+      "Code": "RU",
+      "Type": "Country",
+      "Name": "Oroszország"
+    },
+    {
+      "Id": 194,
+      "Code": "PL",
+      "Type": "Country",
+      "Name": "Lengyelország"
+    },
+    {
+      "Id": 198,
+      "Code": "FI",
+      "Type": "Country",
+      "Name": "Finnország"
+    },
+    {
+      "Id": 199,
+      "Code": "AT",
+      "Type": "Country",
+      "Name": "Ausztria"
+    },
+    {
+      "Id": 202,
+      "Code": "PT",
+      "Type": "Country",
+      "Name": "Portugália"
+    },
+    {
+      "Id": 3147,
+      "ParentId": 198,
+      "Code": "HEL",
+      "Type": "City",
+      "Name": "Helsinki"
+    },
+    {
+      "Id": 204,
+      "Code": "RO",
+      "Type": "Country",
+      "Name": "Románia"
+    },
+    {
+      "Id": 15055,
+      "ParentId": 6359,
+      "Code": "OPO",
+      "Type": "Airport",
+      "Name": "Porto"
+    },
+    {
+      "Id": 9168,
+      "ParentId": 242,
+      "Code": "ZRH",
+      "Type": "City",
+      "Name": "Zürich"
+    },
+    {
+      "Id": 11089,
+      "ParentId": 2214,
+      "Code": "DOH",
+      "Type": "Airport",
+      "Name": "Hamad International"
+    },
+    {
+      "Id": 1234,
+      "ParentId": 204,
+      "Code": "BUH",
+      "Type": "City",
+      "Name": "Bukarest"
+    },
+    {
+      "Id": 1235,
+      "ParentId": 228,
+      "Code": "BUD",
+      "Type": "City",
+      "Name": "Budapest"
+    },
+    {
+      "Id": 6359,
+      "ParentId": 202,
+      "Code": "OPO",
+      "Type": "City",
+      "Name": "Porto"
+    },
+    {
+      "Id": 10202,
+      "ParentId": 1235,
+      "Code": "BUD",
+      "Type": "Airport",
+      "Name": "Budapest"
+    },
+    {
+      "Id": 4698,
+      "ParentId": 247,
+      "Code": "LON",
+      "Type": "City",
+      "Name": "London"
+    },
+    {
+      "Id": 12126,
+      "ParentId": 3147,
+      "Code": "HEL",
+      "Type": "Airport",
+      "Name": "Helsinki Vantaa"
+    },
+    {
+      "Id": 11616,
+      "ParentId": 2687,
+      "Code": "FRA",
+      "Type": "Airport",
+      "Name": "Frankfurt Intl"
+    },
+    {
+      "Id": 226,
+      "Code": "IT",
+      "Type": "Country",
+      "Name": "Olaszország"
+    },
+    {
+      "Id": 228,
+      "Code": "HU",
+      "Type": "Country",
+      "Name": "Magyarország"
+    },
+    {
+      "Id": 11493,
+      "ParentId": 6781,
+      "Code": "FCO",
+      "Type": "Airport",
+      "Name": "Róma Fiumicino"
+    },
+    {
+      "Id": 13542,
+      "ParentId": 4698,
+      "Code": "LGW",
+      "Type": "Airport",
+      "Name": "London Gatwick"
+    },
+    {
+      "Id": 233,
+      "Code": "GR",
+      "Type": "Country",
+      "Name": "Görögország"
+    },
+    {
+      "Id": 9451,
+      "ParentId": 509,
+      "Code": "AMS",
+      "Type": "Airport",
+      "Name": "Amszterdam Schiphol"
+    },
+    {
+      "Id": 235,
+      "Code": "NL",
+      "Type": "Country",
+      "Name": "Hollandia"
+    },
+    {
+      "Id": 5227,
+      "ParentId": 191,
+      "Code": "MOW",
+      "Type": "City",
+      "Name": "Moszkva"
+    },
+    {
+      "Id": 17517,
+      "ParentId": 8222,
+      "Code": "VIE",
+      "Type": "Airport",
+      "Name": "Bécs"
+    },
+    {
+      "Id": 12911,
+      "ParentId": 4110,
+      "Code": "KBP",
+      "Type": "Airport",
+      "Name": "Kijev Boriszpil"
+    },
+    {
+      "Id": 12015,
+      "ParentId": 2835,
+      "Code": "GVA",
+      "Type": "Airport",
+      "Name": "Genf"
+    },
+    {
+      "Id": 240,
+      "Code": "BE",
+      "Type": "Country",
+      "Name": "Belgium"
+    },
+    {
+      "Id": 17648,
+      "ParentId": 8336,
+      "Code": "WAW",
+      "Type": "Airport",
+      "Name": "Varsó Chopin"
+    },
+    {
+      "Id": 13554,
+      "ParentId": 4698,
+      "Code": "LHR",
+      "Type": "Airport",
+      "Name": "London Heathrow"
+    },
+    {
+      "Id": 16626,
+      "ParentId": 5227,
+      "Code": "SVO",
+      "Type": "Airport",
+      "Name": "Moszkva Sheremetyevo Intl"
+    },
+    {
+      "Id": 242,
+      "Code": "CH",
+      "Type": "Country",
+      "Name": "Svájc"
+    },
+    {
+      "Id": 5363,
+      "ParentId": 252,
+      "Code": "MUC",
+      "Type": "City",
+      "Name": "München"
+    },
+    {
+      "Id": 243,
+      "Code": "UA",
+      "Type": "Country",
+      "Name": "Ukrajna"
+    },
+    {
+      "Id": 244,
+      "Code": "FR",
+      "Type": "Country",
+      "Name": "Franciaország"
+    },
+    {
+      "Id": 247,
+      "Code": "GB",
+      "Type": "Country",
+      "Name": "Egyesült Királyság"
+    },
+    {
+      "Id": 9592,
+      "ParentId": 650,
+      "Code": "ATH",
+      "Type": "Airport",
+      "Name": "Athén E Venizelos Intl"
+    },
+    {
+      "Id": 252,
+      "Code": "DE",
+      "Type": "Country",
+      "Name": "Németország"
+    },
+    {
+      "Id": 509,
+      "ParentId": 235,
+      "Code": "AMS",
+      "Type": "City",
+      "Name": "Amszterdam"
+    },
+    {
+      "Id": 6781,
+      "ParentId": 226,
+      "Code": "ROM",
+      "Type": "City",
+      "Name": "Róma"
+    },
+    {
+      "Id": 2687,
+      "ParentId": 252,
+      "Code": "FRA",
+      "Type": "City",
+      "Name": "Frankfurt am Main"
+    }
+  ],
+  "Currencies": [
+    {
+      "Code": "HUF",
+      "Symbol": "Ft",
+      "ThousandsSeparator": " ",
+      "DecimalSeparator": ",",
+      "SymbolOnLeft": false,
+      "SpaceBetweenAmountAndSymbol": true,
+      "RoundingCoefficient": 0,
+      "DecimalDigits": 2
+    }
+  ]
+}
