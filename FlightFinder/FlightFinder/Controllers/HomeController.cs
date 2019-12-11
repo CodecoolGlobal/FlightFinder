@@ -80,7 +80,13 @@ namespace FlightFinder.Controllers
                                      "&adults=" + numOfAdults,
                                      ParameterType.RequestBody);
 
+
             IRestResponse response = postClient.Execute(postRequest);
+
+            var status = response.StatusCode;
+            while (status.Equals(HttpStatusCode.TooManyRequests)){
+                response = postClient.Execute(postRequest);
+            }
 
             var location = response.Headers.ToList()
                 .Where(x => x.Name == "Location")
