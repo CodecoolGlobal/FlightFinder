@@ -1,0 +1,106 @@
+﻿
+body {
+    /*background: #e2e2e2;*/
+    background-image: url(/img/cool-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-btn {
+    margin-top: 27px;
+}
+
+.submit-btn {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    /*padding-left: 30px; 
+    padding-right: 30px;*/
+    border-radius: 40px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+    .submit-btn:hover,
+    .submit-btn:focus {
+        opacity: 0.9;
+    }
+
+.price {
+    text-align: center;
+}
+
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+    .section .section-center {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+
+#booking {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.booking-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #4f5256;
+    padding: 40px;
+    border-radius: 10px ;
+}
+
+    .booking-form .form-group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .booking-form .form-control {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #4f5256;
+        height: 50px;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 40px;
+        padding: 0px 25px;
+    }
+
+
+    .booking-form .form-label {
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 24px;
+        height: 24px;
+        font-size: 12px;
+    }
+
+
+.booking-form .gaadiex-list-item-img {
+    border-radius: 10px;
+}
