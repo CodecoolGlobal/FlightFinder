@@ -25,6 +25,7 @@ body {
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
     margin-bottom: 10px;
+    align-content: center;
 }
 
 .submit-btn:hover,
@@ -32,45 +33,74 @@ body {
     opacity: 0.9;
 }
 
-.price{
-    text-align:center;
+.price {
+    text-align: center;
 }
 
 
-/********card frame **************/
-.card {
-    text-align: center;
+html {
+    min-height: 100%;
     position: relative;
-    border-radius: 10px;
+}
+
+
+.section {
+    position: relative;
+    height: 65vh;
+}
+
+.section .section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+#booking {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.booking-form {
     background-color: rgba(255, 255, 255, 0.7);
     color: #4f5256;
-    border: 1px solid #f2f2f2;
-    margin-bottom: 16px;
-    /*margin-left: 400px;
-    margin-right: 400px;*/
+    padding: 40px;
+    border-radius: 10px ;
 }
 
-.card-body {
+.booking-form .form-group {
     position: relative;
-    padding: 16px;
+    /*margin-bottom: 20px;*/
 }
 
-.gaadiex-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.booking-form .form-control {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #4f5256;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 40px;
+    padding: 0px 25px;
 }
 
-    .gaadiex-list > .gaadiex-list-item {
-        padding: 0 22px;
-    }
 
-.gaadiex-list-item-img {
-    float: left;
+.booking-form .form-label {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+}
+
+
+.booking-form .gaadiex-list-item-img {
     border-radius: 10px;
-}
-
-
-.border-b-1 {
-    border-bottom: 1px solid rgba(162,162,162,.16);
 }
