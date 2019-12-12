@@ -1,24 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FlightFinder</title>
-    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
-    <!--<link rel="stylesheet" href="~/css/site.css" />-->
-    <!-- CSS file -->
-    <link rel="stylesheet" href="~/css/easy-autocomplete.min.css">
-    <link rel="stylesheet" href="~/css/easy-autocomplete.themes.min.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-
-    <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="~/css/result_page.css" />
-</head>
-
-
+﻿
 @{
     //ViewData["Title"] = "Results";
     var flights = ViewData["Flight"];
@@ -26,120 +6,84 @@
     var places = ViewData["Places"];
     var journeys = ViewData["Journeys"];
 }
-@*<div class="gaadiex-list">
-        <div class="gaadiex-list-item">
-            <img class="gaadiex-list-item-img" src="@journey.outboundFlight.imgUrl" alt="List user">
-            <div class="gaadiex-list-item-text">
-                <h3><a href="#">Eric Graves</a></h3>
-                <h4>Brunch this weekend?</h4>
-                <p> I'll be in your neighborhood doing errands</p>
-            </div>
-        </div>
-    </div>*@
 
+@section Styles {
+    <link type="text/css" rel="stylesheet" href="@Href("~/css/result_page.css")" />
+}
+
+@*<div>
+        @foreach (var journey in (IEnumerable<Journey>)journeys)
+        {
+            <div class="card">
+                <div class="gaadiex-list">
+                    <div class="gaadiex-list-item">
+                        <img class="gaadiex-list-item-img" src=" @journey.outboundFlight.imgUrl" />
+                        <div class="gaadiex-list-item-text">
+                            <h4 class="departure">@journey.outboundFlight.originStation, @journey.outboundFlight.departure</h4>
+                            <p class="duration">@journey.outboundFlight.duration min</p>
+                            <h4 class="arrival">@journey.outboundFlight.destinationStation, @journey.outboundFlight.arrival</h4>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="gaadiex-list">
+                    <div class="gaadiex-list-item">
+                        <img class="gaadiex-list-item-img" src=" @journey.inboundFlight.imgUrl" />
+                        <div class="gaadiex-list-item-text">
+                            <h4 class="departure">@journey.inboundFlight.originStation, @journey.inboundFlight.departure</h4>
+                            <p class="duration">@journey.inboundFlight.duration mins</p>
+                            <h4 class="arrival">@journey.inboundFlight.destinationStation, @journey.inboundFlight.arrival</h4>
+                        </div>
+                        <div>
+                            <h3 class="price">@journey.price Ft</h3>
+                            <a href="@journey.link">
+                                <button class="submit-btn">
+                                    Purchase
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>*@
 <div>
     @foreach (var journey in (IEnumerable<Journey>)journeys)
     {
-        <div class="card">
-            <div class="gaadiex-list">
-                <div class="gaadiex-list-item">
-                    <img class="gaadiex-list-item-img" src=" @journey.outboundFlight.imgUrl" />
-                    <div class="gaadiex-list-item-text">
-                        <h4 class="departure">@journey.outboundFlight.originStation, @journey.outboundFlight.departure</h4>
-                        <p class="duration">@journey.outboundFlight.duration min</p>
-                        <h4 class="arrival">@journey.outboundFlight.destinationStation, @journey.outboundFlight.arrival</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="gaadiex-list">
-                <div class="gaadiex-list-item">
-                    <img class="gaadiex-list-item-img" src=" @journey.inboundFlight.imgUrl" />
-                    <div class="gaadiex-list-item-text">
-                        <h4 class="departure">@journey.inboundFlight.originStation, @journey.inboundFlight.departure</h4>
-                        <p class="duration">@journey.inboundFlight.duration min</p>
-                        <h4 class="arrival">@journey.inboundFlight.destinationStation, @journey.inboundFlight.arrival</h4>
-                    </div>
-                    <div>
-                        <h3 class="price">@journey.price Ft</h3>
-                        <a href="@journey.link">
-                            <button class="submit-btn">
-                                Purchase
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    }
-</div>
-
-@*@foreach (var journey in (IEnumerable<Journey>)journeys)
-    {
-
-
-        <div class="text-center">
-            <div id="booking" class="section">
-                <div class="section-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="booking-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <img src=" @journey.outboundFlight.imgUrl" />
-                                        </div>
-                                        <div class="form-group">
-                                            <span class="form-label">Flying from</span>
-                                            <p><strong>@journey.outboundFlight.originStation, @journey.outboundFlight.departure</strong></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <span class="form-label">Flying to</span>
-                                            <p><strong>@journey.outboundFlight.destinationStation, @journey.outboundFlight.arrival</strong></p>
-                                        </div>
+        <div id="booking" class="section">
+            <div class="section-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="booking-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <span class="form-label">Flying from</span>
+                                        <img class="gaadiex-list-item-img" src=" @journey.outboundFlight.imgUrl" />
+                                        <h4 class="departure">@journey.outboundFlight.originStation, @journey.outboundFlight.departure</h4>
+                                        <p class="duration">@journey.outboundFlight.duration min</p>
+                                        <h4 class="arrival">@journey.outboundFlight.destinationStation, @journey.outboundFlight.arrival</h4>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-2">
-                                            <div class="form-group">
-                                                <span class="form-label">Duration</span>
-                                                <p><strong>@journey.outboundFlight.duration mins</strong></p>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <span class="form-label">Flying to</span>
+                                        <img class="gaadiex-list-item-img" src=" @journey.inboundFlight.imgUrl" />
+                                        <h4 class="departure">@journey.inboundFlight.originStation, @journey.inboundFlight.departure</h4>
+                                        <p class="duration">@journey.inboundFlight.duration mins</p>
+                                        <h4 class="arrival">@journey.inboundFlight.destinationStation, @journey.inboundFlight.arrival</h4>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <img src=" @journey.inboundFlight.imgUrl" />
-                                        </div>
-                                        <div class="form-group">
-                                            <span class="form-label">Flying from</span>
-                                            <p><strong>@journey.inboundFlight.originStation, @journey.inboundFlight.departure</strong></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <span class="form-label">Flying to</span>
-                                            <p><strong>@journey.inboundFlight.destinationStation, @journey.inboundFlight.arrival</strong></p>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <span class="form-label">Duration</span>
-                                                    <p><strong>@journey.inboundFlight.duration mins</strong></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <span class="form-label">Price</span>
-                                                    <p><strong>@journey.price Ft</strong></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="form-group">
-                                                    <a href="@journey.link"><button class="submit-btn"> Purchause </button></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <h3 class="price">@journey.price Ft</h3>
+                                        <a href="@journey.link">
+                                            <button class="submit-btn">
+                                                Purchase
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +92,5 @@
                 </div>
             </div>
         </div>
-        <br />
-        <br />
-    }*@
-
+    }
+</div>

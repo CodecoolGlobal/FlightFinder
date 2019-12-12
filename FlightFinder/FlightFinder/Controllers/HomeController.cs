@@ -84,7 +84,8 @@ namespace FlightFinder.Controllers
             IRestResponse response = postClient.Execute(postRequest);
 
             var status = response.StatusCode;
-            while (status.Equals(HttpStatusCode.TooManyRequests)){
+            while (status.Equals(HttpStatusCode.TooManyRequests))
+            {
                 response = postClient.Execute(postRequest);
             }
 
@@ -116,7 +117,7 @@ namespace FlightFinder.Controllers
             JsonResponseData jResponseObj = new JsonResponseData(jsonResponse);
 
             return jResponseObj;
-            
+
 
         }
 
@@ -137,7 +138,7 @@ namespace FlightFinder.Controllers
             {
                 getOutboundFlight(jsonResponseObj, leg, itinerary, journey);
             }
-            
+
             foreach (var leg in jsonResponseObj.Legs)
             {
                 getInboundFlight(jsonResponseObj, leg, itinerary, journey);
@@ -148,7 +149,7 @@ namespace FlightFinder.Controllers
         {
             if (leg.Id == itinerary.OutboundLegId)
             {
-               journey.outboundFlight = fillFlightData(jsonResponseObj, leg);
+                journey.outboundFlight = fillFlightData(jsonResponseObj, leg);
             }
         }
 
@@ -156,7 +157,7 @@ namespace FlightFinder.Controllers
         {
             if (leg.Id == itinerary.InboundLegId)
             {
-               journey.inboundFlight = fillFlightData(jsonResponseObj, leg);
+                journey.inboundFlight = fillFlightData(jsonResponseObj, leg);
             }
         }
 
@@ -180,7 +181,7 @@ namespace FlightFinder.Controllers
             {
                 if (leg.Carriers == carrier.Id)
                 {
-                   flight.imgUrl = carrier.ImageUrl;
+                    flight.imgUrl = carrier.ImageUrl;
                 }
             }
 
