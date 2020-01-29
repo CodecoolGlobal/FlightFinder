@@ -1,9 +1,19 @@
-﻿@{
+﻿@model FlightFinder.Models.Register
+@{
     ViewData["Title"] = "Home Page";
     var flights = ViewData["Flight"];
     var agents = ViewData["Agents"];
     var places = ViewData["Places"];
     var journeys = ViewData["Journeys"];
+}
+
+@{
+    if (TempData["message"] != null)
+    {
+        <script>
+            alert('@TempData["message"]')
+        </script>
+    }
 }
 
 @section Styles {

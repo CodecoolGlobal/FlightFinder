@@ -17,7 +17,7 @@ namespace FlightFinder.Controllers
 {
     public class HomeController : Controller
     {
-
+        DataBase dataBase = new DataBase();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -25,12 +25,42 @@ namespace FlightFinder.Controllers
             _logger = logger;
         }
 
-
-        public IActionResult Index()
+        [HttpPost]
+        public IActionResult Index([Bind] Register register, [Bind] Login login)
         {
+            int response = dataBase.LoginCheck(login);
+            if (response == 1)
+            {
+                TempData["message"] = "You Logged in succwesfully";
+            }
+            else
+            {
+                TempData["message"] = "Name or password is invalid";
+            }
+
+            //TODO Hash Password
+            dataBase.Register(register);
 
             return View();
         }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
 
         public IActionResult Results()
         {
@@ -114,6 +144,9 @@ namespace FlightFinder.Controllers
             getRequest.AddHeader("x-rapidapi-key", "ce1241679dmshdbe323b73c0dde6p1f7e5ejsn386ae855ecfa");
             var restResponse = getClient.Execute(getRequest);
             var jsonResponse = JsonConvert.DeserializeObject(restResponse.Content);
+
+            
+
             JsonResponseData jResponseObj = new JsonResponseData(jsonResponse);
 
             return jResponseObj;
