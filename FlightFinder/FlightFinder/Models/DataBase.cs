@@ -12,7 +12,8 @@ namespace FlightFinder.Models
 {
     public class DataBase
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-TL9U1P9;Initial Catalog=Movies;Integrated Security=True;Pooling=False");
+
+        SqlConnection con = new SqlConnection("YOUR CONNECTION STRING");
         public int LoginCheck(Login login)
         {
             SqlCommand sqlCommand = new SqlCommand("Sp_Login", con);

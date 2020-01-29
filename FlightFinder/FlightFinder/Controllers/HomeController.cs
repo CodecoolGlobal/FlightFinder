@@ -25,30 +25,42 @@ namespace FlightFinder.Controllers
             _logger = logger;
         }
 
-
-        public IActionResult Index()
-        {
-
-            return View();
-        }
         [HttpPost]
-        public IActionResult Index([Bind] Register register)
+        public IActionResult Index([Bind] Register register, [Bind] Login login)
         {
-            //int response = dataBase.LoginCheck(adminLogin);
-            //if (response == 1)
-            //{
-            //    TempData["message"] = "You Logged in succwesfully"; 
-            //}
-            //else
-            //{
-            //    TempData["message"] = "Name or password is invalid";
-            //}
-
+            int response = dataBase.LoginCheck(login);
+            if (response == 1)
+            {
+                TempData["message"] = "You Logged in succwesfully";
+            }
+            else
+            {
+                TempData["message"] = "Name or password is invalid";
+            }
 
             //TODO Hash Password
             dataBase.Register(register);
+
             return View();
         }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
 
         public IActionResult Results()
         {
