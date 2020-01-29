@@ -98,8 +98,8 @@ namespace FlightFinder.Controllers
                                      "&adults=" + numOfAdults,
                                      ParameterType.RequestBody);
 
-            IRestResponse response = postClient.Execute(postRequest);
 
+            IRestResponse response = postClient.Execute(postRequest);
 
             var status = response.StatusCode;
             while (status.Equals(HttpStatusCode.TooManyRequests))
@@ -121,9 +121,9 @@ namespace FlightFinder.Controllers
         private JsonResponseData doGet()
         {
             var sessionKey = doPost();
-            if (string.IsNullOrEmpty(sessionKey))
+            while (string.IsNullOrEmpty(sessionKey))
             {
-                sessionKey = "5350c495-f127-4c22-9f54-e0c38f22bd3b";
+                sessionKey = doPost();
             }
             var getClient = new RestClient("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/pricing/uk2/v1.0/{sessionkey}?pageIndex=0&pageSize=10");
             var getRequest = new RestRequest(Method.GET);

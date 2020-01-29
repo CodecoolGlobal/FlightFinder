@@ -1,3 +1,9 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+
 .section {
 	position: relative;
 	height: 100vh;
@@ -185,4 +191,3 @@ body {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 60px;
 }
-
