@@ -13,12 +13,12 @@ namespace FlightFinder.Models
     public class DataBase
     {
         SqlConnection con = new SqlConnection("Data Source=DESKTOP-TL9U1P9;Initial Catalog=Movies;Integrated Security=True;Pooling=False");
-        public int LoginCheck(AdminLogin adminLogin)
+        public int LoginCheck(Login login)
         {
             SqlCommand sqlCommand = new SqlCommand("Sp_Login", con);
             sqlCommand.CommandType = CommandType.StoredProcedure;
-            sqlCommand.Parameters.AddWithValue("@Admin_name", adminLogin.AdminName);
-            sqlCommand.Parameters.AddWithValue("@Admin_password", adminLogin.AdminPassword);
+            sqlCommand.Parameters.AddWithValue("@User_name", login.UserName);
+            sqlCommand.Parameters.AddWithValue("@User_password", login.UserPassword);
             SqlParameter obLogin = new SqlParameter();
             obLogin.ParameterName = "@Isvalid";
             obLogin.SqlDbType = SqlDbType.Bit;
@@ -32,5 +32,18 @@ namespace FlightFinder.Models
 
 
         }
+        public void Register(Register register)
+        {
+            SqlCommand sqlCommand = new SqlCommand("Sp_Register", con);
+            sqlCommand.CommandType = CommandType.StoredProcedure;
+            sqlCommand.Parameters.AddWithValue("@User_name", register.UserName);
+            sqlCommand.Parameters.AddWithValue("@User_password", register.UserPassword);
+            SqlParameter obLogin = new SqlParameter();
+            con.Open();
+            sqlCommand.ExecuteNonQuery();
+            int response = Convert.ToInt32(obLogin.Value);
+            con.Close();
+        }
+
     }
 }

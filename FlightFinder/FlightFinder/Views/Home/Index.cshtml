@@ -1,4 +1,4 @@
-﻿@model FlightFinder.Models.AdminLogin
+﻿@model FlightFinder.Models.Register
 @{
     ViewData["Title"] = "Home Page";
     var flights = ViewData["Flight"];
@@ -10,11 +10,11 @@
 <form class="form-horizontal" asp-action="Index">
     <div class="form-group">
         <label class="control-label">Admin Name:</label>
-        <input asp-for="AdminName" class="form-control" type="text" />
+        <input asp-for="UserName" class="form-control" type="text" />
     </div>
     <div class="form-group">
         <label class="control-label">Admin Password:</label>
-        <input asp-for="AdminPassword" class="form-control" type="password" />
+        <input asp-for="UserPassword" class="form-control" type="password" />
     </div>
     <div>
         <input type="submit" value="Login"/>

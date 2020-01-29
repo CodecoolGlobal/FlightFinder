@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace FlightFinder.Models
 {
-    public class AdminLogin
+    public class Register
     {
-        public string AdminName { get; set; }
-        public string AdminPassword { get; set; }
+        public string UserName { get; set; }
+        public string UserPassword { get; set; }
     }
 }
